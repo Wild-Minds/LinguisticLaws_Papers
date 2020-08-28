@@ -1,0 +1,189 @@
+##The following R code was used for the paper: Heesen, R., Hobaiter, C., Ferrer-i-Cancho, R., & Semple, S. (2019). Linguistic laws in chimpanzee gestural communication. Proceedings of the Royal Society B, 286(1896), 20182900. 
+
+
+##The following R code was used for the calculation and significance testing of L
+
+data1 <- read.table ("DataL_processed.txt", header=T)
+reps <- 100000
+results <- rep(0, reps)
+x <- c(data1$probability)
+y <- c(data1$mean_duration)
+L <- sum(x*y)
+print (c("real L is", L))
+sortvector <- 1:length(x)
+for (i in 1:reps)
+{
+sortvector <- sample(sortvector, replace = F)
+ xtemp <- x[sortvector]
+ L_temp <- sum(xtemp *y)
+ results[i] <- L_temp
+}
+hist(results)
+is_small <- sum(results < L)
+print(c("P of being so small is estimated as ", is_small/reps))
+
+
+##The following R code was used for the calculation and significance testing of M
+
+data1 <- read.table("DataM_sequence_1gesture.txt ", header=T)
+reps <- 100000
+results <- rep(0, reps)
+x <- c(data1$Sequence_Size)
+y <- c(data1$mean_duration)
+M <- sum(x*y)
+print (c("real M is", M))
+sortvector <- 1:length(x)
+for (i in 1:reps)
+{
+ sortvector <- sample(sortvector, replace = F)
+ xtemp <- x[sortvector]
+ M_temp <- sum(xtemp *y)
+ results[i] <- M_temp
+}
+hist(results)
+is_small <- sum(results < M)
+print(c("P of being so small is estimated as ", is_small/reps))
+
+
+##The following R code was used to generate the information needed for Figure S3-1.
+
+replicas = 100000
+random_data <- FALSE
+run <- function(criterion, sign, file) {
+t <- read.table("DataL_processed.txt", header = TRUE)
+n <- nrow(t)
+if (!random_data) {
+ f <- t$frequency
+ d <- t$mean_duration
+ D <- f*d
+ t <- data.frame(f, d, D)
+}
+cat("Generating", file,"\r\n")
+sink(file)
+cat("length correlation_mean correlation_sd p_value_mean p_value_sd NA_counter\n")
+for (prefix_length in 5:n) {
+ correlation_test <- data.frame(estimate = double(), p.value = double())
+ NA_counter <- 0
+ i <- 1
+ while (i <= replicas) {
+ if (random_data) {
+ f <- runif(n, 0, 1)
+ d <- runif(n, 0, 1)
+ D <- f*d
+ t <- data.frame(f, d, D)
+ } else {
+ d <- sample(t$d)
+ t <- data.frame(f=t$f, d, D=t$f*d)
+ }
+ # Ordering criterion
+ if (criterion == "D") {
+ t <- t[order(sign*t$D),]
+ } else if (criterion == "f") {
+ t <- t[order(sign*t$f),]
+ } else if (criterion == "d") {
+ t <- t[order(sign*t$d),]
+ }
+ t_prefix <- t[1:prefix_length, ]
+ correlation <- cor.test(t_prefix$f, t_prefix$d, method="spearman")
+ if (is.na(correlation$estimate)) {
+ NA_counter <- NA_counter + 1
+ }
+ else {
+ new_row <- data.frame(estimate = correlation$estimate, p.value = correlation$p.value)
+ correlation_test <- rbind(correlation_test, new_row)
+ i <- i + 1
+ }
+ }
+ stopifnot(nrow(correlation_test) == replicas)
+ average <- mean(correlation_test$estimate)
+ stopifnot(!is.na(average))
+ cat(prefix_length, average, sd(correlation_test$estimate), mean(correlation_test$p.value),
+sd(correlation_test$p.value), NA_counter, "\n")
+}
+sink()
+}
+run("D", 1, "correlation_test_total_d_ascending.txt")
+run("f", 1, "correlation_test_f_ascending.txt")
+run("d", 1, "correlation_test_mean_d_ascending.txt")
+run("D", -1, "correlation_test_total_d_descending.txt")
+run("f", -1, "correlation_test_f_descending.txt")
+run("d", -1, "correlation_test_mean_d_descending.txt")
+
+
+##The following R code was used to generate the information needed for Figures S3-2 and S3-3.
+
+n_min <- 5
+replicas = 10000
+two_sided <- TRUE
+input <- "DataL_processed.txt"
+get_mean_correlation <- function(t, n, criterion, sign) {
+ # Ordering criterion
+ if (criterion == "D") {
+ t <- t[order(sign*t$D),]
+ } else if (criterion == "f") {
+ t <- t[order(sign*t$f),]
+ } else if (criterion == "d") {
+ t <- t[order(sign*t$d),]
+ }
+ mean_correlation <- 0
+ for(prefix_length in n_min:n) {
+ t_prefix <- t[1:prefix_length, ]
+ correlation <- cor.test(t_prefix$f, t_prefix$d, method="spearman")
+ mean_correlation <- mean_correlation + correlation$estimate
+ }
+ mean_correlation <- mean_correlation/(n - n_min + 1)
+ return (mean_correlation)
+}
+run <- function(criterion, sign, file) {
+ t_original <- read.table(input, header = TRUE)
+ n <- nrow(t_original)
+ cat("Generating", file,"\r\n")
+ sink(file)
+ cat("length correlation correlation_random p_value NA_counter\r\n")
+ for (prefix_length in n_min:n) {
+ t <- t_original
+ f <- t$frequency
+ d <- t$mean_duration
+ D <- f*d
+ t <- data.frame(f, d, D)
+ NA_counter <- 0
+ mean_true <- get_mean_correlation(t, prefix_length, criterion, sign) # this is the statistic of
+the test
+ correlation_random <- 0
+ m <- 0
+ for (i in 1:replicas) {
+ repeat {
+ d <- sample(t$d)
+Linguistic laws in chimpanzee gestures ESM Heesen et al.
+12
+ t <- data.frame(f=t$f, d, D=t$f*d)
+ mean_random <- get_mean_correlation(t, prefix_length, criterion, sign)
+ if (is.na(mean_random)) {
+ NA_counter <- NA_counter + 1
+ } else {
+ break
+ }
+ }
+ if (two_sided) {
+ increment <- abs(mean_random) > abs(mean_true)
+ } else {
+ # one sided test
+ increment <- mean_random < mean_true
+ }
+ if (increment) {
+ m <- m + 1
+ }
+ p_value <- m/i
+ correlation_random <- correlation_random + mean_random
+ }
+ correlation_random <- correlation_random/replicas
+ cat(prefix_length, mean_true, correlation_random, p_value, NA_counter, "\r\n")
+ }
+ sink()
+}
+run("D", 1, "sorting_effect_test_total_d_ascending.txt")
+run("f", 1, "sorting_effect_test_f_ascending.txt")
+run("d", 1, "sorting_effect_test_mean_d_ascending.txt")
+run("D", -1, "sorting_effect_test_total_d_descending.txt")
+run("f", -1, "sorting_effect_test_f_descending.txt")
+run("d", -1, "sorting_effect_test_mean_d_descending.txt")
