@@ -11,3 +11,15 @@ ggplot(GestureTypes, aes(x=F, y=d)) + geom_smooth(aes(color=Type), method=lm, se
   theme(axis.text = element_text(size=9), axis.title = element_text(size=11))  +
   geom_errorbar(aes(color=Type, ymin=d-sem, ymax=d+sem), width=5) +
   scale_x_continuous(breaks = c(0,50,100,150,200,250), limits = c(0,270))
+  
+  #Zoomed area
+  
+  ggplot(GestureTypes, aes(x=F, y=d)) + geom_smooth(aes(color=Type), method=lm, se=F) + 
+  geom_smooth( method=lm, se=F, linetype='dashed', color='black') +
+  geom_point(size=3, aes(color=Type)) + 
+  theme_classic() +
+  labs(x=my_x_title, y=my_y_title) + 
+  theme(legend.position = 'none') +
+  theme(axis.text = element_text(size=9), axis.title = element_text(size=11))  +
+  geom_errorbar(aes(color=Type, ymin=d-sem, ymax=d+sem), width=0.8) +
+  scale_x_continuous(breaks = c(0,50,100,150,200,250), limits = c(0,50))
