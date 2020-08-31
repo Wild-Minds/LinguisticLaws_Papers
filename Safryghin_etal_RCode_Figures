@@ -23,3 +23,16 @@ ggplot(GestureTypes, aes(x=F, y=d)) + geom_smooth(aes(color=Type), method=lm, se
   theme(axis.text = element_text(size=9), axis.title = element_text(size=11))  +
   geom_errorbar(aes(color=Type, ymin=d-sem, ymax=d+sem), width=0.8) +
   scale_x_continuous(breaks = c(0,50,100,150,200,250), limits = c(0,50))
+
+#Menzerath's law graph
+my_y_title <- expression(paste("Duration (s)"))
+my_x_title<- expression(paste("Sequence Size"))
+ggplot(GestureTokensGraph, aes(x=Size, y=d))+ geom_point(size=3) + 
+theme_classic() +
+labs(x=my_x_title, y=my_y_title) + theme(legend.position = 'none') +
+theme(axis.text = element_text(size=9), axis.title = element_text(size=11)) +
+geom_errorbar(aes(ymin=d-sem, ymax=d+sem), width=0.07) +
+scale_x_continuous(breaks = c(1,2,3,4,5,6),limits = c(0.8,6.2))
+
+
+
