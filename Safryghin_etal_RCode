@@ -236,7 +236,7 @@ ModelRankingBIC <-dredge(Model1, rank = 'BIC')
 confint(Model1, c('p', 'Type'))
 
 #posthoc
-summary(glht(GestureTypesModel, mcp(Context="Tukey")))
+summary(glht(Model1, mcp(Context="Tukey")))
 
 
 #No object shake Model 1 
@@ -262,7 +262,7 @@ Model2BIC <- dredge(Model2, rank='BIC')
 
 
 #post hoc
-summary(glht(TokensModel, mcp(Type="Tukey")))
+summary(glht(Model2, mcp(Type="Tukey")))
 
 
 
