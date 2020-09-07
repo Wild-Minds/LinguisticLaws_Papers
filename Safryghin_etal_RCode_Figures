@@ -25,14 +25,34 @@ ggplot(GestureTypes, aes(x=F, y=d)) + geom_smooth(aes(color=Type), method=lm, se
   scale_x_continuous(breaks = c(0,50,100,150,200,250), limits = c(0,50))
 
 #Menzerath's law graph
+#Menzerath's law graph
+library(dplyr)
+library(plyr)
+
+GestureTokens<-unite(GestureTokens,'Size', 'Type')
+
+Y<-data.frame(aggregate(GestureTokens$d, by=list(GestureTokens$z), FUN=mean))
+Z<-data.frame(aggregate(GestureTokens$d, by=list(GestureTokens$z), FUN=sd))
+
+dataframe <-left_join(Y,Z, by="Group.1")
+dataframe <-separate(dataframe, Group.1, c("Size", "Category"))
+dataframe$Size<-as.factor(dataframe$Size)
+df <- transform(dataframe,
+                Category=revalue(Category,c("manual"="Manual")))
+
 my_y_title <- expression(paste("Duration (s)"))
 my_x_title<- expression(paste("Sequence Size"))
-ggplot(GestureTokensGraph, aes(x=Size, y=d))+ geom_point(size=3) + 
-theme_classic() +
-labs(x=my_x_title, y=my_y_title) + theme(legend.position = 'none') +
-theme(axis.text = element_text(size=9), axis.title = element_text(size=11)) +
-geom_errorbar(aes(ymin=d-sem, ymax=d+sem), width=0.07) +
-scale_x_continuous(breaks = c(1,2,3,4,5,6),limits = c(0.8,6.2))
-
+tiff("TokensCategory", units='in', width=10, height=7, res=300)
+ggplot(df, aes(x=Size, y=x.x, color=Category)) +
+  geom_point(position=position_dodge(width=0.5), size=3)+
+  theme_classic()+
+  geom_errorbar(aes(ymin=x.x-x.y, ymax=x.x+x.y), width=0.3, 
+                position=position_dodge(width=0.5))+
+  labs(x=my_x_title, y=my_y_title)  +
+  theme(axis.text = element_text(size=11), 
+        axis.title = element_text(size=13), 
+        legend.text = element_text(size=11),
+        legend.title = element_text(size=13))
+dev.off()
 
 
