@@ -1,7 +1,6 @@
 #Zipf's law analysis----
 #Correlation anaylsis between f and d
 GestureTypes <- read.csv(file.choose(), header = T) #Load data
-GestureTypes
 cor.test(GestureTypes$F, GestureTypes$d, method = 'spearman', alternative='greater') #correlation between f and d
 cor.test(GestureTypes$F, GestureTypes$D, method = 'spearman') #Control correlation between D and f
 
@@ -9,7 +8,7 @@ cor.test(GestureTypes$F, GestureTypes$D, method = 'spearman') #Control correlati
 #Excluding the outlier object shake
 FreqeuncySort<-GestureTypes[order(-GestureTypes$F),]
 GestureTypesNoOS <-FreqeuncySort[2:26,]
-GestureTypesNoOS
+
 cor.test(GestureTypesNoOS$F, GestureTypesNoOS$d, method = 'spearman', alternative ='greater') #correlation between f and d
 cor.test(GestureTypesNoOS$F, GestureTypesNoOS$D, method = 'spearman') #Control correlation between D and f
 
@@ -52,13 +51,13 @@ hist(results)
 is_small <- sum(results <L) #changed check if it is significiantly big swap '<' with '>'
 print(c("P of being so small is estimated as ", is_small/reps)) 
 
-
+head(GestureTypes)
 #subset analysis manual vs whole body
-ManualBody <-GestureTypes[order(GestureTypes$Type),]
-ManualBody
+ManualBody <-GestureTypes[order(GestureTypes$Category),]
+
 Body <- ManualBody[1:5,]
-Body
-cor.test(Body$F, Body$d, method = 'spearman', alternative='less') #correlation between f and d
+
+cor.test(Body$F, Body$d, method = 'spearman', alternative='greater') #correlation between f and d
 cor.test(Body$F, Body$d, method = 'spearman') #Control correlation between D and f
 
 Manual <- ManualBody[6:26,]
@@ -107,10 +106,9 @@ print(c("P of being so small is estimated as ", is_small/reps))
 
 #Menzerath's law analysis ----
 GestureTokens<- read.csv(file.choose(), header=T)
-head(GestureTokens)
 cor.test(GestureTokens$Size, GestureTokens$d, method = 'spearman') #Correlation between sequence size and mean gesture duration per each sequence
 cor.test(GestureTokens$Size, GestureTokens$D, method = 'spearman', alternative='greater') #Control correlation between T and n
-GestureTokens
+
 
 #is M significanlty small?
 reps <- 100000
@@ -223,27 +221,33 @@ library(multcomp)
 
 #Load data
 GLMMData <-read.csv(file.choose(), header=T)
+GLMMData$logduration<-log(GLMMData$Duration) #transform duration in log
+
 
 #Model 1 
-Model1 <- glmer(Duration ~ p + Type +(1|Signaller), 
-                              data=GLMMData, family = Gamma (log))
-options(na.action=na.pass) 
+Model1 <- lmer(logduration ~ Fsample + Category + Fsample*Category+(1|Signaller), 
+                data=GLMMData)
 summary(Model1)
+confint(Model1)
 
-vif(Model1)
-ModelRankingAIC <-dredge(Model1, rank = 'AIC')
-ModelRankingBIC <-dredge(Model1, rank = 'BIC')
-confint(Model1, c('p', 'Type'))
+
+ModelRankingAIC <-dredge(modelx, rank = 'AIC')
+ModelRankingBIC <-dredge(modelx, rank = 'BIC')
 
 #posthoc
-summary(glht(Model1, mcp(Context="Tukey")))
+summary(glht(GestureTypesModel, mcp(Context="Tukey")))
 
 
 #No object shake Model 1 
 GLMMNoOSData <- subset(GLMMData, Gesture != 'Object shake')
-Model1NOOS <- glmer(Duration ~ p + Type +(1|Signaller), 
-                           data=GLMMNoOSData, family = Gamma (log))
-options(na.action=na.pass) 
+y=count(GLMMNoOSData, Gesture)
+GLMMNoOSData<-left_join(GLMMNoOSData, y, by='Gesture')
+GLMMNoOSData$Fsample1b<-(GLMMNoOSData$n/295)
+
+
+
+Model1NOOS <- lmer(logduration ~ Fsample1b + Category + Fsample1b*Category+(1|Signaller), 
+                           data=GLMMNoOSData)
 summary(Model1NOOS)
 confint(Model1NOOS)
 
@@ -251,18 +255,16 @@ Model1NOOSAIC <-dredge(Model1NOOS, rank = 'AIC')
 Model1NOOSBIC <- dredge(Model1NOOS, rank='BIC')
 
 #Menzerath's GLMM 
-Model2 <- glmer(d ~ Type + Size + (1|Signaller), 
-                           data=GestureTokens, family = Gamma (log))
-options(na.action=na.pass) 
+GestureTokens$logduration<-log(GestureTokens$d)
+
+Model2 <- lmer(logduration ~ Type + Size + Type*Size+(1|Signaller), 
+                           data=GestureTokens)
 summary(Model2)
 confint(Model2)
 
 Model2AIC <-dredge(Model2, rank = 'AIC')
 Model2BIC <- dredge(Model2, rank='BIC')
 
-
 #post hoc
 summary(glht(Model2, mcp(Type="Tukey")))
-
-
 
