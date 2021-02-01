@@ -104,6 +104,8 @@ ModelRankingBIC <-dredge(modelx, rank = 'BIC')
 
 
 
+
+
 #Model 2
 Model2Data<-read.csv(file.choose(), header=T)
 Model2 <- lmer(logduration ~ P + Category + P*Category+(1|Signaller), 
@@ -125,4 +127,37 @@ Model3AIC <-dredge(Model3, rank = 'AIC')
 Model3BIC <- dredge(Model3, rank='BIC')
 
 
+#Duane analysis ----
+NoDuane <-subset(GestureTokens, !Signaller == 'Duane' )
+
+cor.test(NoDuane$Size, NoDuane$d, method = 'spearman', alternative='greater') #Correlation between sequence size and mean gesture duration per each sequence
+cor.test(NoDuane$Size, NoDuane$D, method = 'spearman', alternative='greater') #Control correlation between T and n
+
+
+#Is M significantly small for sequences without Duane?
+reps <- 100000
+results <- rep(0, reps)
+x <- c(NoDuane$Size)
+y <- c(NoDuane$d)
+M <- sum(x*y)
+print (c("real M is", M))
+sortvector <- 1:length(x)
+for (i in 1:reps)
+{
+  sortvector <- sample(sortvector, replace = F)
+  xtemp <- x[sortvector]
+  M_temp <- sum(xtemp *y)
+  results[i] <- M_temp
+}
+hist(results)
+is_small <- sum(results<M)
+print(c("P of being so small is estimated as ", is_small/reps))
+
+#GLMM
+library(lme4)
+library(MuMIn)
+Model4<- lmer(logduration ~ PWB + Size + PWB*Size+(1|Signaller), 
+               data=NoDuane, na.action = na.fail)
+summary(Model4)
+confint(Model4)
 
