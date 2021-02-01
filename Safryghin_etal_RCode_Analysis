@@ -53,15 +53,15 @@ print(c("P of being so small is estimated as ", is_small/reps))
 
 #Menzerath's law analysis ----
 GestureTokens<- read.csv(file.choose(), header=T)
-cor.test(GestureTokens$Size, GestureTokens$d, method = 'spearman') #Correlation between sequence size and mean gesture duration per each sequence
-cor.test(GestureTokens$Size, GestureTokens$D, method = 'spearman', alternative='greater') #Control correlation between T and n
+cor.test(GestureTokens$Size, GestureTokens$t, method = 'spearman') #Correlation between sequence size and mean gesture duration per each sequence
+cor.test(GestureTokens$Size, GestureTokens$T, method = 'spearman', alternative='greater') #Control correlation between T and n
 
 
 #is M significanlty small?
 reps <- 100000
 results <- rep(0, reps)
 x <- c(GTMixed$Size)
-y <- c(GTMixed$d)
+y <- c(GTMixed$t)
 M <- sum(x*y)
 print (c("real M is", M))
 sortvector <- 1:length(x)
@@ -130,15 +130,15 @@ Model3BIC <- dredge(Model3, rank='BIC')
 #Duane analysis ----
 NoDuane <-subset(GestureTokens, !Signaller == 'Duane' )
 
-cor.test(NoDuane$Size, NoDuane$d, method = 'spearman', alternative='greater') #Correlation between sequence size and mean gesture duration per each sequence
-cor.test(NoDuane$Size, NoDuane$D, method = 'spearman', alternative='greater') #Control correlation between T and n
+cor.test(NoDuane$Size, NoDuane$t, method = 'spearman', alternative='greater') #Correlation between sequence size and mean gesture duration per each sequence
+cor.test(NoDuane$Size, NoDuane$T, method = 'spearman', alternative='greater') #Control correlation between T and n
 
 
 #Is M significantly small for sequences without Duane?
 reps <- 100000
 results <- rep(0, reps)
 x <- c(NoDuane$Size)
-y <- c(NoDuane$d)
+y <- c(NoDuane$t)
 M <- sum(x*y)
 print (c("real M is", M))
 sortvector <- 1:length(x)
