@@ -89,6 +89,44 @@ library(multcomp)
 
 #Load data
 GLMMData <-read.csv(file.choose(), header=T)
+
+#Data distribution analysis----
+hist(GLMMDataMAU$Duration)
+#Test distribution data
+#install.packages("fitdistrplus")
+library(fitdistrplus)
+citation('fitdistrplus')
+#I start by plotting the empirical distribution
+plotdist(GLMMData$Duration, histo=TRUE, demp=T)
+
+#now I will look at the skewness and kurtosis of the distribution
+par(mfrow = c(1,1))
+descdist(GLMMData$Duration, boot=1000)
+
+#fitting first weibull distribution
+fitW <- fitdist(GLMMData$Duration, "weibull")
+summary(fitW)
+
+#fitting second gamma distribution
+fitG <- fitdist(GLMMData$Duration, "gamma")
+summary(fitG)
+
+#try also lognormal
+fitN <- fitdist(GLMMData$Duration, "lnorm")
+summary(fitN)
+
+#create more plots to compare the fit via weibull and gamma
+par(mfrow = c(1,1))
+plot.legend <- c("Weibull", "gamma", "lognorm")
+denscomp(list(fitW, fitG, fitN))
+qqcomp(list(fitW,fitG, fitN))
+cdfcomp(list(fitW,fitG, fitN))
+ppcomp(list(fitW,fitG, fitN))
+
+#more goodness of fit tests:
+gofstat(list(fitW, fitG, fitN), fitnames = c("weibull", "gamma", "lognormal"))
+
+#Transformation of data
 GLMMData$logduration<-log(GLMMData$Duration) #transform duration in log
 
 
@@ -101,8 +139,6 @@ confint(Model1)
 
 ModelRankingAIC <-dredge(modelx, rank = 'AIC')
 ModelRankingBIC <-dredge(modelx, rank = 'BIC')
-
-
 
 
 
