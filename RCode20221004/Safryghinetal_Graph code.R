@@ -201,12 +201,16 @@ ggplot(MenzDataModel, aes(x=SequenceSize, fill=ProportionCat)) + geom_bar(positi
 
 #Menzertah's law plot for each individual----
 library(ggpol)
+library(dplyr)
 tiff(filename="16IndPlot", res=300, height = 2080, width = 3200) # perhaps width/height as well
-ggplot(MenzDataModel, aes(x=SequenceSize, y=Duration, group=SequenceSize))+
-  facet_wrap(~Signaller) +
+x<-MenzDataModel %>% left_join(MenzDataModel %>% group_by(Signaller) %>% summarise(N=n()))%>%
+  mutate(Label=paste0(Signaller,"( n = ",N,")"))
+tiff(filename="16IndPlot", res=300, height = 2080, width = 3200) # perhaps width/height as well
+  ggplot(x,mapping=aes(x=SequenceSize, y=Duration, group=SequenceSize))+
   geom_boxjitter(jitter.size=0.5, outlier.shape = NA) +
   scale_x_continuous(breaks=c(1,2,3,4,5,6)) +
-  labs(x="Sequence Size", y="Duration (s)")
+  labs(x="Sequence Size", y="Duration (s)") +
+  facet_wrap(~Label)
 dev.off()
 
 
