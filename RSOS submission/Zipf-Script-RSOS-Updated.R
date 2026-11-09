@@ -196,6 +196,8 @@ capitalize_first <- function(x) {
   paste0(toupper(substr(x, 1, 1)), tolower(substr(x, 2, nchar(x))))
 }
 #Upload data----
+library(dplyr)
+
 MAu_data_anon<-read.csv(file.choose(), stringsAsFactors = T) #choose Mau_anon_data_ga.csv
 MAu_data_anon_morph<-read.csv(file.choose(), stringsAsFactors = T) #choose Mau_anon_data_moprhs.csv
 
