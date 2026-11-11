@@ -1,0 +1,561 @@
+,ClipName,Record.,Signaller,Recipient,SequenceID,SequenceSize,Gesture,P,Duration,Category,logduration
+1,11.85,998,Duane,Lola,5,1,Object shake,0.473214286,2.88,Manual,1.057790294
+2,11.85,999,Duane,Lola,6,1,Stomping object/ground,0.005357143,2.56,Manual,0.940007258
+3,11.88,1001,Duane,Lola,7,2,Hit object/ground,0.082142857,0.36,Manual,-1.021651248
+4,11.88,1000,Duane,Lola,7,2,Object shake,0.473214286,1.48,Manual,0.392042088
+5,11.88,1002,Duane,Lola,8,2,Object shake,0.473214286,0.44,Manual,-0.820980552
+6,11.88,1003,Duane,Lola,8,2,Object shake,0.473214286,1.84,Manual,0.609765572
+7,11.88,1004,Duane,Lola,9,1,Object shake,0.473214286,4.08,Manual,1.406096988
+8,11.88,1005,Duane,Lola,10,1,Object shake,0.473214286,4.16,Manual,1.425515074
+9,11.9,1006,Duane,Lola,11,1,Object shake,0.473214286,3.68,Manual,1.302912752
+10,11.9,1007,Duane,Lola,12,1,Object shake,0.473214286,2.28,Manual,0.824175443
+11,11.9,1008,Duane,Lola,13,2,Object shake,0.473214286,3.88,Manual,1.355835154
+12,11.9,1009,Duane,Lola,13,2,Object shake,0.473214286,8.96,Manual,2.192770227
+13,11.9,1010,Duane,Lola,14,1,Object shake,0.473214286,4.52,Manual,1.508511994
+14,11.9,1011,Duane,Lola,15,1,Object shake,0.473214286,5.28,Manual,1.663926098
+15,11.9,1012,Duane,Lola,16,1,Object shake,0.473214286,1.24,Manual,0.21511138
+16,11.91,1014,Duane,Lola,18,1,Object shake,0.473214286,3.92,Manual,1.366091654
+17,11.91,1015,Duane,Lola,19,1,Object shake,0.473214286,1.2,Manual,0.182321557
+18,11.91,1016,Duane,Lola,20,1,Object shake,0.473214286,12.72,Manual,2.543175558
+19,11.91,1017,Duane,Lola,21,2,Object shake,0.473214286,3.8,Manual,1.335001067
+20,11.91,1018,Duane,Lola,21,2,Stomp object/ground,0.042857143,0.2,Manual,-1.609437912
+21,11.93,1021,Duane,Lola,22,3,Hit object/ground,0.082142857,1.52,Manual,0.418710335
+22,11.93,1020,Duane,Lola,22,3,Object shake,0.473214286,3.64,Manual,1.291983682
+23,11.93,1022,Duane,Lola,22,3,Object shake,0.473214286,0.72,Manual,-0.328504067
+24,11.97,1025,Duane,Lola,23,1,Object shake,0.473214286,5.8,Manual,1.757857918
+25,11.98,1027,Duane,Lola,25,1,Object shake,0.473214286,1.8,Manual,0.587786665
+26,11.98,1028,Duane,Lola,26,1,Object shake,0.473214286,5.12,Manual,1.633154439
+27,11.98,1029,Duane,Lola,27,1,Object shake,0.473214286,3.44,Manual,1.235471471
+28,11.106,1032,Duane,Lola,29,1,Object shake,0.473214286,1.52,Manual,0.418710335
+29,11.106,1033,Duane,Lola,30,1,Object shake,0.473214286,5.36,Manual,1.678963975
+30,11.106,1034,Duane,Lola,31,1,Object shake,0.473214286,2.92,Manual,1.071583616
+31,11.108,1039,Duane,Lola,35,2,Object shake,0.473214286,0.68,Manual,-0.385662481
+32,11.108,1040,Duane,Lola,35,2,Object shake,0.473214286,5.4,Manual,1.686398954
+33,11.108,1041,Duane,Lola,36,1,Object shake,0.473214286,1.24,Manual,0.21511138
+34,11.108,1042,Duane,Lola,37,1,Hit object/ground,0.082142857,1.8,Manual,0.587786665
+35,11.111,1048,Duane,Lola,41,2,Object shake,0.473214286,2.16,Manual,0.770108222
+36,11.111,1049,Duane,Lola,41,2,Object shake,0.473214286,4.64,Manual,1.534714366
+37,11.112,1050,Duane,Lola,42,1,Object shake,0.473214286,1.44,Manual,0.364643114
+38,11.112,1050,Duane,Lola,43,1,Object shake,0.473214286,8.48,Manual,2.13771045
+39,11.113,1051,Duane,Lola,44,1,Object shake,0.473214286,3.16,Manual,1.150572028
+40,11.114,1052,Duane,Lola,45,2,Object shake,0.473214286,1.68,Manual,0.518793793
+41,11.114,1053,Duane,Lola,45,2,Object shake,0.473214286,3.4,Manual,1.223775432
+42,11.115,1058,Duane,Lola,48,4,Hit object/ground,0.082142857,0.32,Manual,-1.139434283
+43,11.115,1057,Duane,Lola,48,4,Jump,0.023214286,0.72,Body,-0.328504067
+44,11.115,1056,Duane,Lola,48,4,Object shake,0.473214286,3.36,Manual,1.211940974
+45,11.115,1059,Duane,Lola,48,4,Stomp 2-feet object/ground,0.005357143,0.44,Manual,-0.820980552
+46,11.122,1067,Duane,Lola,50,2,Object shake,0.473214286,2.12,Manual,0.751416089
+47,11.126,1071,Duane,Lola,52,1,Object shake,0.473214286,0.8,Manual,-0.223143551
+48,11.126,1073,Duane,Lola,53,2,Object shake,0.473214286,2.04,Manual,0.712949808
+49,11.126,1072,Duane,Lola,53,2,Swing,0.039285714,0.6,Manual,-0.510825624
+50,11.126,1074,Duane,Lola,54,3,Object shake,0.473214286,4.88,Manual,1.58514522
+51,11.126,1075,Duane,Lola,54,3,Object shake,0.473214286,0.76,Manual,-0.274436846
+52,11.126,1076,Duane,Lola,54,3,Throw object,0.008928571,0.32,Manual,-1.139434283
+53,11.127,1077,Duane,Lola,55,1,Object shake,0.473214286,5.68,Manual,1.736951233
+54,11.129,1081,Duane,Lola,56,5,Hit object/ground,0.082142857,0.72,Manual,-0.328504067
+55,11.129,1078,Duane,Lola,56,5,Object shake,0.473214286,1.76,Manual,0.565313809
+56,11.129,1078,Duane,Lola,56,5,Object shake,0.473214286,0.76,Manual,-0.274436846
+57,11.129,1079,Duane,Lola,56,5,Stomp object/ground,0.042857143,0.48,Manual,-0.733969175
+58,11.129,1080,Duane,Lola,56,5,Swing,0.039285714,0.32,Manual,-1.139434283
+59,11.129,1083,Duane,Lola,57,2,Object shake,0.473214286,2.12,Manual,0.751416089
+60,11.129,1082,Duane,Lola,57,2,Stomp object/ground,0.042857143,0.24,Manual,-1.427116356
+61,11.133,1085,Duane,Lola,59,1,Object shake,0.473214286,2.24,Manual,0.806475866
+62,11.133,1087,Duane,Lola,60,2,Hit object/ground,0.082142857,0.4,Manual,-0.916290732
+63,11.133,1086,Duane,Lola,60,2,Object shake,0.473214286,3.28,Manual,1.187843422
+64,11.133,1088,Duane,Lola,61,4,Jump,0.023214286,0.72,Body,-0.328504067
+65,11.133,1091,Duane,Lola,61,4,Object move,0.082142857,0.32,Manual,-1.139434283
+66,11.133,1089,Duane,Lola,61,4,Object shake,0.473214286,1,Manual,0
+67,11.133,1090,Duane,Lola,61,4,Stomp 2-feet object/ground,0.005357143,0.4,Manual,-0.916290732
+68,11.134,1094,Duane,Lola,62,3,Object shake,0.473214286,2.08,Manual,0.732367894
+69,11.134,1092,Duane,Lola,62,3,Swing,0.039285714,1.28,Manual,0.246860078
+70,11.134,1093,Duane,Lola,62,3,Swing,0.039285714,1.72,Manual,0.542324291
+71,11.135,1095,Duane,Lola,63,2,Object shake,0.473214286,0.72,Manual,-0.328504067
+72,11.135,1096,Duane,Lola,63,2,Stomp object/ground,0.042857143,0.6,Manual,-0.510825624
+73,11.135,1099,Duane,Lola,64,6,Hit object/ground,0.082142857,1.32,Manual,0.277631737
+74,11.135,1102,Duane,Lola,64,6,Jump,0.023214286,0.44,Body,-0.820980552
+75,11.135,1097,Duane,Lola,64,6,Object move,0.082142857,0.36,Manual,-1.021651248
+76,11.135,1098,Duane,Lola,64,6,Object shake,0.473214286,1.28,Manual,0.246860078
+77,11.135,1100,Duane,Lola,64,6,Object shake,0.473214286,1.28,Manual,0.246860078
+78,11.135,1101,Duane,Lola,64,6,Object shake,0.473214286,2,Manual,0.693147181
+79,11.137,1106,Duane,Lola,65,2,Hit object/ground,0.082142857,0.32,Manual,-1.139434283
+80,11.137,1105,Duane,Lola,65,2,Swing,0.039285714,0.72,Manual,-0.328504067
+81,11.137,1107,Duane,Lola,66,1,Object move,0.082142857,1.68,Manual,0.518793793
+82,11.137,1108,Duane,Lola,67,1,Object move,0.082142857,2.4,Manual,0.875468737
+83,11.143,1111,Duane,Lola,69,5,Hit object/ground,0.082142857,0.2,Manual,-1.609437912
+84,11.143,1113,Duane,Lola,69,5,Hit object/ground,0.082142857,0.24,Manual,-1.427116356
+85,11.143,1112,Duane,Lola,69,5,Jump,0.023214286,0.68,Body,-0.385662481
+86,11.143,1112,Duane,Lola,69,5,Jump,0.023214286,0.48,Body,-0.733969175
+87,11.143,1110,Duane,Lola,69,5,Object shake,0.473214286,3.8,Manual,1.335001067
+88,11.146,1117,Duane,Lola,70,2,Object shake,0.473214286,2.16,Manual,0.770108222
+89,11.146,1118,Duane,Lola,71,1,Object shake,0.473214286,2.36,Manual,0.858661619
+90,11.146,1119,Duane,Lola,72,1,Object shake,0.473214286,2.72,Manual,1.00063188
+91,11.165,1122,Duane,Lola,73,2,Object shake,0.473214286,0.92,Manual,-0.083381609
+92,11.165,1122,Duane,Lola,73,2,Stomp object/ground,0.042857143,0.68,Manual,-0.385662481
+93,11.169,1127,Duane,Lola,74,5,Hit object/ground,0.082142857,0.28,Manual,-1.272965676
+94,11.169,1128,Duane,Lola,74,5,Hit object/ground,0.082142857,0.48,Manual,-0.733969175
+95,11.169,1126,Duane,Lola,74,5,Jump,0.023214286,0.6,Body,-0.510825624
+96,11.169,1126,Duane,Lola,74,5,Jump,0.023214286,0.68,Body,-0.385662481
+97,11.191,1131,Duane,Lola,75,5,Jump,0.023214286,0.48,Body,-0.733969175
+98,11.191,1133,Duane,Lola,75,5,Jump,0.023214286,0.68,Body,-0.385662481
+99,11.191,1132,Duane,Lola,75,5,Stomp object/ground,0.042857143,0.48,Manual,-0.733969175
+100,11.191,1130,Duane,Lola,75,5,Swing,0.039285714,1.04,Manual,0.039220713
+101,15.102,606,Duane,Zimba,77,1,Object shake,0.473214286,4.2,Manual,1.435084525
+102,15.102,609,Duane,Zimba,79,2,Object shake,0.473214286,1.12,Manual,0.113328685
+103,15.102,610,Duane,Zimba,79,2,Object shake,0.473214286,3.12,Manual,1.137833002
+104,15.102,611,Duane,Zimba,80,1,Object shake,0.473214286,1.6,Manual,0.470003629
+105,15.103,613,Duane,Zimba,81,2,Object shake,0.473214286,2.48,Manual,0.90825856
+106,15.103,614,Duane,Zimba,81,2,Object shake,0.473214286,1.52,Manual,0.418710335
+107,15.103,615,Duane,Zimba,82,2,Object shake,0.473214286,7.36,Manual,1.996059933
+108,15.103,616,Duane,Zimba,82,2,Object shake,0.473214286,7.36,Manual,1.996059933
+109,15.104,617,Duane,Zimba,83,1,Object shake,0.473214286,7.96,Manual,2.074429
+110,15.104,618,Duane,Zimba,84,2,Object shake,0.473214286,1.56,Manual,0.444685821
+111,15.104,619,Duane,Zimba,84,2,Object shake,0.473214286,9.44,Manual,2.24495598
+112,15.104,620,Duane,Zimba,85,2,Object shake,0.473214286,1.28,Manual,0.246860078
+113,15.104,621,Duane,Zimba,85,2,Object shake,0.473214286,11.08,Manual,2.405141681
+114,15.104,622,Duane,Zimba,86,1,Object shake,0.473214286,5.96,Manual,1.785070481
+115,15.104,623,Duane,Zimba,87,1,Object shake,0.473214286,11.48,Manual,2.440606391
+116,15.105,624,Duane,Zimba,88,1,Object shake,0.473214286,5.8,Manual,1.757857918
+117,15.105,625,Duane,Zimba,89,1,Object shake,0.473214286,9.08,Manual,2.206074193
+118,15.107,626,Duane,Zimba,90,1,Object shake,0.473214286,10.36,Manual,2.337952237
+119,15.116,633,Duane,Zimba,93,1,Object shake,0.473214286,5.16,Manual,1.640936579
+120,15.118,634,Duane,Zimba,94,1,Object shake,0.473214286,1.56,Manual,0.444685821
+121,15.118,635,Duane,Zimba,95,1,Object shake,0.473214286,6.64,Manual,1.893111963
+122,15.118,636,Duane,Zimba,96,1,Object shake,0.473214286,2.72,Manual,1.00063188
+123,15.118,637,Duane,Zimba,97,1,Object shake,0.473214286,3,Manual,1.098612289
+124,15.122,639,Duane,Zimba,98,1,Object shake,0.473214286,4.92,Manual,1.593308531
+125,15.128,640,Duane,Zimba,99,1,Object shake,0.473214286,4.72,Manual,1.5518088
+126,15.128,641,Duane,Zimba,100,2,Object shake,0.473214286,3.88,Manual,1.355835154
+127,15.128,642,Duane,Zimba,100,2,Object shake,0.473214286,10.36,Manual,2.337952237
+128,15.132,643,Duane,Zimba,101,1,Object shake,0.473214286,0.96,Manual,-0.040821995
+129,15.132,644,Duane,Zimba,102,2,Object shake,0.473214286,3.84,Manual,1.345472367
+130,15.132,645,Duane,Zimba,102,2,Object shake,0.473214286,3.32,Manual,1.199964783
+131,15.132,648,Duane,Zimba,103,3,Jump,0.023214286,0.28,Body,-1.272965676
+132,15.132,646,Duane,Zimba,103,3,Object shake,0.473214286,2.44,Manual,0.891998039
+133,15.132,647,Duane,Zimba,103,3,Object shake,0.473214286,3.4,Manual,1.223775432
+134,15.132,649,Duane,Zimba,104,1,Object shake,0.473214286,3,Manual,1.098612289
+135,15.132,650,Duane,Zimba,105,1,Object shake,0.473214286,2.68,Manual,0.985816795
+136,15.133,655,Duane,Zimba,108,1,Object shake,0.473214286,1.8,Manual,0.587786665
+137,15.133,656,Duane,Zimba,109,1,Object shake,0.473214286,4.16,Manual,1.425515074
+138,15.135,657,Duane,Zimba,110,1,Object shake,0.473214286,8.76,Manual,2.170195905
+139,15.139,659,Duane,Zimba,111,1,Object shake,0.473214286,8.32,Manual,2.118662255
+140,15.139,660,Duane,Zimba,112,1,Object shake,0.473214286,1.88,Manual,0.631271777
+141,15.139,661,Duane,Zimba,113,1,Object shake,0.473214286,1.56,Manual,0.444685821
+142,15.143,666,Duane,Zimba,116,3,Hit object/ground with object,0.023214286,5.52,Manual,1.70837786
+143,15.143,668,Duane,Zimba,116,3,Hit object/ground with object,0.023214286,1.72,Manual,0.542324291
+144,15.143,667,Duane,Zimba,116,3,Object shake,0.473214286,4.2,Manual,1.435084525
+145,15.143,669,Duane,Zimba,117,1,Hit object/ground with object,0.023214286,2,Manual,0.693147181
+146,15.143,670,Duane,Zimba,118,1,Hit object/ground with object,0.023214286,1.52,Manual,0.418710335
+147,15.145,672,Duane,Zimba,119,3,Hit object/ground,0.082142857,1.48,Manual,0.392042088
+148,15.145,673,Duane,Zimba,119,3,Object shake,0.473214286,1.52,Manual,0.418710335
+149,15.145,676,Duane,Zimba,120,3,Jump,0.023214286,0.56,Body,-0.579818495
+150,15.145,674,Duane,Zimba,120,3,Object shake,0.473214286,4.72,Manual,1.5518088
+151,15.145,675,Duane,Zimba,120,3,Object shake,0.473214286,5.4,Manual,1.686398954
+152,15.145,677,Duane,Zimba,121,2,Object shake,0.473214286,0.64,Manual,-0.446287103
+153,15.145,678,Duane,Zimba,121,2,Object shake,0.473214286,6.92,Manual,1.93441577
+154,15.145,679,Duane,Zimba,122,2,Object shake,0.473214286,1.4,Manual,0.336472237
+155,15.145,680,Duane,Zimba,122,2,Shake arm,0.003571429,1.04,Manual,0.039220713
+156,15.148,682,Duane,Zimba,123,3,Hit object/ground with object,0.023214286,0.6,Manual,-0.510825624
+157,15.148,683,Duane,Zimba,123,3,Object shake,0.473214286,1.8,Manual,0.587786665
+158,15.148,684,Duane,Zimba,123,3,Stomp 2-feet object/ground,0.005357143,1.52,Manual,0.418710335
+159,15.148,685,Duane,Zimba,124,1,Hit object/ground with object,0.023214286,2.2,Manual,0.78845736
+160,15.148,686,Duane,Zimba,125,1,Hit object/ground with object,0.023214286,0.44,Manual,-0.820980552
+161,15.148,687,Duane,Zimba,126,6,Hit object/ground,0.082142857,1.04,Manual,0.039220713
+162,15.148,688,Duane,Zimba,126,6,Hit object/ground,0.082142857,0.88,Manual,-0.127833372
+163,15.148,689,Duane,Zimba,126,6,Object shake,0.473214286,3.04,Manual,1.111857515
+164,15.148,690,Duane,Zimba,126,6,Object shake,0.473214286,1.16,Manual,0.148420005
+165,15.148,692,Duane,Zimba,126,6,Object shake,0.473214286,2.72,Manual,1.00063188
+166,15.148,691,Duane,Zimba,126,6,Stomp object/ground,0.042857143,0.28,Manual,-1.272965676
+167,15.148,693,Duane,Zimba,127,1,Object shake,0.473214286,2.04,Manual,0.712949808
+168,15.15,696,Duane,Zimba,128,3,Object shake,0.473214286,2.12,Manual,0.751416089
+169,15.15,695,Duane,Zimba,128,3,Swing,0.039285714,0.48,Manual,-0.733969175
+170,15.15,699,Duane,Zimba,129,2,Object shake,0.473214286,1.24,Manual,0.21511138
+171,15.15,698,Duane,Zimba,129,2,Swing,0.039285714,1.16,Manual,0.148420005
+172,15.151,700,Duane,Zimba,130,2,Object move,0.082142857,3.32,Manual,1.199964783
+173,15.151,701,Duane,Zimba,130,2,Object shake,0.473214286,2.32,Manual,0.841567186
+174,15.151,703,Duane,Zimba,131,2,Hit object/ground,0.082142857,0.88,Manual,-0.127833372
+175,15.151,702,Duane,Zimba,131,2,Swing: with object,0.007142857,0.92,Manual,-0.083381609
+176,15.151,705,Duane,Zimba,132,2,Object move,0.082142857,1.4,Manual,0.336472237
+177,15.151,704,Duane,Zimba,132,2,Object shake,0.473214286,1.2,Manual,0.182321557
+178,15.163,709,Duane,Zimba,136,1,Object shake,0.473214286,2.88,Manual,1.057790294
+179,15.163,710,Duane,Zimba,137,1,Object shake,0.473214286,2.12,Manual,0.751416089
+180,15.164,711,Duane,Zimba,138,2,Object shake,0.473214286,2.36,Manual,0.858661619
+181,15.164,712,Duane,Zimba,138,2,Object shake,0.473214286,4.84,Manual,1.576914721
+182,15.164,713,Duane,Zimba,139,1,Object shake,0.473214286,2.2,Manual,0.78845736
+183,15.173,715,Duane,Zimba,140,2,Hit object/ground with object,0.023214286,0.8,Manual,-0.223143551
+184,15.173,716,Duane,Zimba,140,2,Object shake,0.473214286,4.96,Manual,1.601405741
+185,15.173,717,Duane,Zimba,141,1,Object shake,0.473214286,5.04,Manual,1.617406082
+186,15.173,718,Duane,Zimba,142,1,Hit object/ground with object,0.023214286,10.28,Manual,2.33020026
+187,15.173,720,Duane,Zimba,143,2,Hit object/ground with object,0.023214286,6.36,Manual,1.850028377
+188,15.173,719,Duane,Zimba,143,2,Object shake,0.473214286,1.96,Manual,0.672944473
+189,15.173,721,Duane,Zimba,144,1,Object shake,0.473214286,3.48,Manual,1.247032294
+190,15.174,723,Duane,Zimba,146,1,Object shake,0.473214286,9.2,Manual,2.219203484
+191,15.174,724,Duane,Zimba,147,1,Object shake,0.473214286,15.04,Manual,2.710713319
+192,15.175,725,Duane,Zimba,148,1,Object shake,0.473214286,6.08,Manual,1.805004696
+193,15.185,728,Duane,Zimba,149,1,Object shake,0.473214286,8.56,Manual,2.14710019
+194,15.186,730,Duane,Zimba,150,2,Object shake,0.473214286,2.84,Manual,1.043804052
+195,15.188,734,Duane,Zimba,152,5,Jump,0.023214286,0.36,Body,-1.021651248
+196,15.188,732,Duane,Zimba,152,5,Object shake,0.473214286,1.52,Manual,0.418710335
+197,15.188,733,Duane,Zimba,152,5,Object shake,0.473214286,1.12,Manual,0.113328685
+198,15.188,736,Duane,Zimba,152,5,Object shake,0.473214286,1.48,Manual,0.392042088
+199,15.188,735,Duane,Zimba,152,5,Stomp object/ground,0.042857143,0.32,Manual,-1.139434283
+200,16.1,551,Duane,Zimba,166,1,Swing: directed,0.005357143,1,Manual,0
+201,16.4,554,Duane,Zimba,168,2,Object shake,0.473214286,1.64,Manual,0.494696242
+202,16.4,555,Duane,Zimba,169,1,Object shake,0.473214286,4.52,Manual,1.508511994
+203,16.4,558,Duane,Zimba,170,3,Object move,0.082142857,0.64,Manual,-0.446287103
+204,16.4,557,Duane,Zimba,170,3,Object shake,0.473214286,4.2,Manual,1.435084525
+205,16.4,556,Duane,Zimba,170,3,Shake head,0.001785714,0.4,Manual,-0.916290732
+206,16.6,559,Duane,Zimba,171,1,Swing,0.039285714,1.48,Manual,0.392042088
+207,16.1,560,Duane,Zimba,172,1,Object shake,0.473214286,1.36,Manual,0.3074847
+208,16.1,561,Duane,Zimba,173,1,Object shake,0.473214286,7.28,Manual,1.985130862
+209,16.1,562,Duane,Zimba,174,1,Object shake,0.473214286,2.4,Manual,0.875468737
+210,18.7,391,Duane,Zimba,177,2,Object move,0.082142857,0.6,Manual,-0.510825624
+211,18.7,392,Duane,Zimba,177,2,Object move,0.082142857,1.04,Manual,0.039220713
+212,18.7,393,Duane,Zimba,178,1,Object move,0.082142857,0.72,Manual,-0.328504067
+213,18.7,394,Duane,Zimba,179,1,Object move,0.082142857,0.44,Manual,-0.820980552
+214,18.7,397,Duane,Zimba,180,4,Object move,0.082142857,4.12,Manual,1.415853163
+215,18.7,398,Duane,Zimba,180,4,Shake arm,0.003571429,0.84,Manual,-0.174353387
+216,18.7,395,Duane,Zimba,180,4,Swing,0.039285714,0.96,Manual,-0.040821995
+217,18.7,396,Duane,Zimba,180,4,Swing,0.039285714,2.12,Manual,0.751416089
+218,18.7,399,Duane,Zimba,181,1,Object move,0.082142857,0.8,Manual,-0.223143551
+219,18.1,400,Duane,Zimba,182,2,Object move,0.082142857,0.56,Manual,-0.579818495
+220,18.1,401,Duane,Zimba,182,2,Throw object,0.008928571,0.36,Manual,-1.021651248
+221,18.1,402,Duane,Zimba,183,1,Swing,0.039285714,1,Manual,0
+222,18.11,404,Duane,Zimba,185,1,Object shake,0.473214286,2.76,Manual,1.01523068
+223,18.11,408,Duane,Zimba,186,5,Hit object/ground,0.082142857,0.4,Manual,-0.916290732
+224,18.11,407,Duane,Zimba,186,5,Object move,0.082142857,1.8,Manual,0.587786665
+225,18.11,409,Duane,Zimba,186,5,Object shake,0.473214286,1.92,Manual,0.652325186
+226,18.11,405,Duane,Zimba,186,5,Swing,0.039285714,2.68,Manual,0.985816795
+227,18.11,406,Duane,Zimba,186,5,Throw object,0.008928571,0.64,Manual,-0.446287103
+228,18.11,410,Duane,Zimba,187,1,Object shake,0.473214286,3.44,Manual,1.235471471
+229,18.12,411,Duane,Zimba,188,1,Object shake,0.473214286,2.84,Manual,1.043804052
+230,18.12,412,Duane,Zimba,189,2,Hit object/ground,0.082142857,0.76,Manual,-0.274436846
+231,18.12,413,Duane,Zimba,189,2,Object shake,0.473214286,1.52,Manual,0.418710335
+232,18.12,414,Duane,Zimba,190,1,Object shake,0.473214286,4.6,Manual,1.526056303
+233,18.16,420,Duane,Zimba,192,2,Object shake,0.473214286,2.12,Manual,0.751416089
+234,18.16,421,Duane,Zimba,193,1,Object shake,0.473214286,3,Manual,1.098612289
+235,18.16,422,Duane,Zimba,194,1,Object move,0.082142857,5.08,Manual,1.625311262
+236,18.17,423,Duane,Zimba,195,1,Object shake,0.473214286,2.24,Manual,0.806475866
+237,18.17,425,Duane,Zimba,196,2,Hit object/ground with object,0.023214286,1.28,Manual,0.246860078
+238,18.17,424,Duane,Zimba,196,2,Object shake,0.473214286,3.08,Manual,1.124929597
+239,18.17,426,Duane,Zimba,197,1,Hit object/ground with object,0.023214286,0.64,Manual,-0.446287103
+240,18.18,427,Duane,Zimba,198,1,Hit object/ground with object,0.023214286,0.6,Manual,-0.510825624
+241,18.19,429,Duane,Zimba,199,1,Object shake,0.473214286,2.2,Manual,0.78845736
+242,18.19,430,Duane,Zimba,200,2,Object move,0.082142857,2.16,Manual,0.770108222
+243,18.19,431,Duane,Zimba,200,2,Object shake,0.473214286,4.64,Manual,1.534714366
+244,18.2,433,Duane,Zimba,201,3,Object move,0.082142857,1.6,Manual,0.470003629
+245,18.2,432,Duane,Zimba,201,3,Swing,0.039285714,1.92,Manual,0.652325186
+246,18.2,434,Duane,Zimba,201,3,Swing,0.039285714,0.88,Manual,-0.127833372
+247,18.2,435,Duane,Zimba,202,1,Hit object/ground,0.082142857,0.52,Manual,-0.653926467
+248,18.2,436,Duane,Zimba,203,1,Swing,0.039285714,1.28,Manual,0.246860078
+249,18.2,437,Duane,Zimba,204,1,Swing: with object,0.007142857,1.44,Manual,0.364643114
+250,18.2,438,Duane,Zimba,205,1,Object shake,0.473214286,8,Manual,2.079441542
+251,18.2,438,Duane,Zimba,206,1,Object shake,0.473214286,1.76,Manual,0.565313809
+252,18.2,442,Duane,Zimba,207,3,Jump,0.023214286,0.24,Body,-1.427116356
+253,18.2,441,Duane,Zimba,207,3,Object shake,0.473214286,7.12,Manual,1.962907725
+254,18.2,443,Duane,Zimba,207,3,Wave,0.001785714,0.64,Manual,-0.446287103
+255,18.21,446,Duane,Zimba,208,3,Object move,0.082142857,0.64,Manual,-0.446287103
+256,18.21,444,Duane,Zimba,208,3,Swing: with object,0.007142857,2.04,Manual,0.712949808
+257,18.21,445,Duane,Zimba,208,3,Swing: with object,0.007142857,2.08,Manual,0.732367894
+258,18.21,447,Duane,Zimba,209,1,Throw object,0.008928571,0.56,Manual,-0.579818495
+259,18.21,449,Duane,Zimba,210,2,Object shake,0.473214286,6.48,Manual,1.86872051
+260,18.21,448,Duane,Zimba,210,2,Throw object,0.008928571,0.44,Manual,-0.820980552
+261,18.22,450,Duane,Zimba,211,1,Object shake,0.473214286,1.44,Manual,0.364643114
+262,18.23,451,Duane,Zimba,212,5,Object move,0.082142857,1.76,Manual,0.565313809
+263,18.23,453,Duane,Zimba,212,5,Object move,0.082142857,1.88,Manual,0.631271777
+264,18.23,454,Duane,Zimba,212,5,Stomp object/ground,0.042857143,0.28,Manual,-1.272965676
+265,18.23,452,Duane,Zimba,212,5,Swing,0.039285714,2.68,Manual,0.985816795
+266,18.23,452,Duane,Zimba,212,5,Swing,0.039285714,0.24,Manual,-1.427116356
+267,18.23,455,Duane,Zimba,213,2,Object move,0.082142857,1.28,Manual,0.246860078
+268,18.23,456,Duane,Zimba,213,2,Swing,0.039285714,0.6,Manual,-0.510825624
+269,18.23,457,Duane,Zimba,214,1,Object move,0.082142857,0.64,Manual,-0.446287103
+270,18.27,460,Duane,Zimba,216,1,Object shake,0.473214286,0.76,Manual,-0.274436846
+271,18.27,461,Duane,Zimba,217,1,Object shake,0.473214286,2.68,Manual,0.985816795
+272,18.27,462,Duane,Zimba,218,1,Object shake,0.473214286,1.56,Manual,0.444685821
+273,18.28,463,Duane,Zimba,219,1,Swing,0.039285714,3.64,Manual,1.291983682
+274,18.28,464,Duane,Zimba,220,2,Object move,0.082142857,3.4,Manual,1.223775432
+275,18.28,465,Duane,Zimba,220,2,Object move,0.082142857,0.96,Manual,-0.040821995
+276,18.29,466,Duane,Zimba,221,3,Object move,0.082142857,1.92,Manual,0.652325186
+277,18.29,467,Duane,Zimba,221,3,Object shake,0.473214286,1.28,Manual,0.246860078
+278,18.29,468,Duane,Zimba,221,3,Object shake,0.473214286,2,Manual,0.693147181
+279,18.29,469,Duane,Zimba,222,1,Object shake,0.473214286,3.44,Manual,1.235471471
+280,18.29,470,Duane,Zimba,223,1,Object shake,0.473214286,5.52,Manual,1.70837786
+281,18.37,471,Duane,Zimba,224,1,Object shake,0.473214286,4.72,Manual,1.5518088
+282,18.38,472,Duane,Zimba,225,1,Object shake,0.473214286,3.96,Manual,1.376244025
+283,18.39,473,Duane,Zimba,226,1,Object move,0.082142857,0.76,Manual,-0.274436846
+284,18.43,475,Duane,Zimba,228,1,Object shake,0.473214286,5.48,Manual,1.701105101
+285,18.43,476,Duane,Zimba,229,1,Object shake,0.473214286,3.52,Manual,1.25846099
+286,18.44,477,Duane,Zimba,230,2,Object shake,0.473214286,5.28,Manual,1.663926098
+287,18.44,478,Duane,Zimba,230,2,Swing,0.039285714,0.44,Manual,-0.820980552
+288,18.46,479,Duane,Zimba,231,1,Object move,0.082142857,1.04,Manual,0.039220713
+289,18.46,480,Duane,Zimba,232,1,Object shake,0.473214286,5.52,Manual,1.70837786
+290,23.18,1189,Musa,Wilma,234,1,Leaf clipping,0.0625,6.52,Manual,1.874874376
+291,25.222,1289,Kwezi,Bahati,235,2,Hit object/ground,0.082142857,0.28,Manual,-1.272965676
+292,25.222,1288,Kwezi,Bahati,235,2,Object shake,0.473214286,2,Manual,0.693147181
+293,25.222,1291,Kwezi,Bahati,236,3,Hit object/ground,0.082142857,0.4,Manual,-0.916290732
+294,25.222,1292,Kwezi,Bahati,236,3,Object shake,0.473214286,3,Manual,1.098612289
+295,25.222,1290,Kwezi,Bahati,236,3,Stomp object/ground,0.042857143,0.28,Manual,-1.272965676
+296,27.67,1506,Zalu,Unknown,237,1,Leaf clipping,0.0625,4.52,Manual,1.508511994
+297,28.103,1601,Zig,Dingisha,239,1,Leaf clipping,0.0625,7.28,Manual,1.985130862
+298,30.201,1795,Pascal,Bahati,240,1,Stomping object/ground,0.005357143,4,Manual,1.386294361
+299,30.201,1796,Pascal,Bahati,241,1,Stomping object/ground,0.005357143,1,Manual,0
+300,30.209,1798,Nick,Anna,243,3,Object shake,0.473214286,2.12,Manual,0.751416089
+301,30.209,1799,Nick,Anna,243,3,Object shake,0.473214286,5.68,Manual,1.736951233
+302,30.209,1800,Nick,Anna,243,3,Object shake,0.473214286,4.4,Manual,1.481604541
+303,36.222,2169,Kato,Bahati,245,1,Hit object/ground,0.082142857,1.1,Manual,0.09531018
+304,36.222,2170,Kato,Bahati,246,1,Hit object/ground,0.082142857,2,Manual,0.693147181
+305,36.222,2171,Kato,Bahati,247,2,Leaf clipping,0.0625,4.96,Manual,1.601405741
+306,36.222,2172,Kato,Bahati,247,2,Object shake,0.473214286,1.96,Manual,0.672944473
+307,36.222,2173,Kato,Bahati,248,1,Object shake,0.473214286,2.52,Manual,0.924258902
+308,36.222,N1,Kato,Bahati,249,3,Hit object/ground,0.082142857,0.4,Manual,-0.916290732
+309,36.222,2174,Kato,Bahati,249,3,Leaf clipping,0.0625,2.04,Manual,0.712949808
+310,36.222,2175,Kato,Bahati,249,3,Object shake,0.473214286,2.08,Manual,0.732367894
+311,37.11,2187,Nick,Bahati,251,2,Leaf clipping,0.0625,7.32,Manual,1.990610328
+312,37.11,2188,Nick,Bahati,251,2,Object shake,0.473214286,0.76,Manual,-0.274436846
+313,37.11,2189,Nick,Bahati,252,1,Object shake,0.473214286,0.56,Manual,-0.579818495
+314,37.21,2197,Nick,Bahati,254,1,Leaf clipping,0.0625,8.56,Manual,2.14710019
+315,42.135,2348,Hawa,Nora,255,1,Leaf clipping,0.0625,3.48,Manual,1.247032294
+316,42.105-1,2343,Zalu,Nora,257,1,Leaf clipping,0.0625,10.52,Manual,2.353278207
+317,42.105-1,N2,Zalu,Nora,258,1,Leaf clipping,0.0625,3.24,Manual,1.17557333
+318,45.101,2538,Hawa,Nora,261,2,Object shake,0.473214286,4.2,Manual,1.435084525
+319,45.101,2539,Hawa,Nora,261,2,Object shake,0.473214286,1.24,Manual,0.21511138
+320,45.157,2559,Hawa,Juliet,263,1,Object move,0.082142857,0.96,Manual,-0.040821995
+321,52.311,2807,Kato,Juliet,269,5,Leaf clipping,0.0625,5.16,Manual,1.640936579
+322,52.311,2808,Kato,Juliet,269,5,Leaf clipping,0.0625,4.48,Manual,1.499623046
+323,52.311,2809,Kato,Juliet,269,5,Leaf clipping,0.0625,8.8,Manual,2.174751721
+324,52.311,2810,Kato,Juliet,269,5,Leaf clipping,0.0625,3.48,Manual,1.247032294
+325,52.311,2811,Kato,Juliet,269,5,Leaf clipping,0.0625,6.76,Manual,1.91102289
+326,52.311,2812,Kato,Juliet,270,1,Object shake,0.473214286,1.76,Manual,0.565313809
+327,52.311,2813,Kato,Juliet,271,1,Leaf clipping,0.0625,2,Manual,0.693147181
+328,52.311,2814,Kato,Juliet,272,1,Object shake,0.473214286,0.72,Manual,-0.328504067
+329,52.311,2815,Kato,Juliet,273,1,Leaf clipping,0.0625,1.56,Manual,0.444685821
+330,53.143,2869,Pascal,Nora,276,1,Object move,0.082142857,0.52,Manual,-0.653926467
+331,53.143,2870,Pascal,Nora,277,1,Object move,0.082142857,1.92,Manual,0.652325186
+332,65.151,3507,Kato,Harriet,289,1,Object shake,0.473214286,1.28,Manual,0.246860078
+333,65.151,3508,Kato,Harriet,290,1,Object shake,0.473214286,0.64,Manual,-0.446287103
+334,69.33,3653,Zefa,Rachel,295,2,Object shake,0.473214286,0.32,Manual,-1.139434283
+335,69.33,3652,Zefa,Rachel,295,2,Stomp object/ground,0.042857143,0.6,Manual,-0.510825624
+336,69.104,3663,Kwezi,Rachel,297,2,Leaf clipping,0.0625,5.04,Manual,1.617406082
+337,69.104,3664,Kwezi,Rachel,297,2,Object shake,0.473214286,0.68,Manual,-0.385662481
+338,69.104,3665,Kwezi,Rachel,298,1,Object shake,0.473214286,2.36,Manual,0.858661619
+339,69.104,3666,Kwezi,Rachel,299,1,Leaf clipping,0.0625,9.6,Manual,2.261763098
+340,M14.52,4359,Zalu,Nora,303,1,Leaf clipping,0.0625,13.24,Manual,2.583242551
+341,M6.24,4267,Nick,Nambi,309,1,Object shake,0.473214286,1.16,Manual,0.148420005
+342,M6.24,4268,Nick,Nambi,310,1,Object shake,0.473214286,4.88,Manual,1.58514522
+343,M6.24,4269,Nick,Nambi,311,2,Object move,0.082142857,1.08,Manual,0.076961041
+344,M6.24,4269,Nick,Nambi,311,2,Object move,0.082142857,0.56,Manual,-0.579818495
+345,M6.31,4271,Nick,Nambi,312,1,Object move,0.082142857,1.64,Manual,0.494696242
+346,M6.31,4272,Nick,Nambi,313,1,Object shake,0.473214286,1.52,Manual,0.418710335
+347,M6.35,4273,Nick,Nambi,314,1,Object shake,0.473214286,4.32,Manual,1.463255402
+348,M6.35,4274,Nick,Nambi,315,1,Object shake,0.473214286,1.56,Manual,0.444685821
+349,Budongo 2011-02-07 Clip 45 13;53;10,400,Nick,Zimba,321,1,Object shake,0.473214286,0.68,Manual,-0.385662481
+350,Budongo 2011-02-15 Clip 46 13;40;12,520,Hawa,Nambi,324,1,Object shake,0.473214286,2.32,Manual,0.841567186
+351,Budongo 2011-02-24 Clip 1 12;46;20,440,Musa,Beatrice,325,1,Object shake,0.473214286,2.28,Manual,0.824175443
+352,Budongo 2011-02-24 Clip 1 12;46;20,442,Musa,Beatrice,326,2,Hit object/ground,0.082142857,0.36,Manual,-1.021651248
+353,Budongo 2011-02-24 Clip 1 12;46;20,441,Musa,Beatrice,326,2,Object move,0.082142857,3.68,Manual,1.302912752
+354,Budongo 2011-02-24 Clip 1 12;46;20,443,Musa,Beatrice,327,2,Object move,0.082142857,1.16,Manual,0.148420005
+355,Budongo 2011-02-24 Clip 1 12;46;20,444,Musa,Beatrice,327,2,Object move,0.082142857,4.8,Manual,1.568615918
+356,Budongo 2011-08-26 Clip 2 11;33;05,805,Fred,Kana,329,1,Object shake,0.473214286,2.12,Manual,0.751416089
+357,Budongo 2011-08-31 Clip 19 11;59;59,835,Zalu,Kumi,330,1,Reach: palm,0.005357143,1.48,Manual,0.392042088
+358,Budongo 2012-06-21 Clip 2-1 08;25;56,864,Fred,Kutu,332,2,Present: genitals forwards,0.046428571,0.88,Body,-0.127833372
+359,Budongo 2012-06-21 Clip 2-1 08;25;56,865,Fred,Kutu,332,2,Rocking: sitting,0.025,3.68,Body,1.302912752
+360,Budongo 2012-06-26 Clip 11-1 13;41;38,1002,Nick,Kutu,334,5,Drum,0.003571429,0.32,Manual,-1.139434283
+361,Budongo 2012-06-26 Clip 11-1 13;41;38,1003,Nick,Kutu,334,5,Drum,0.003571429,0.08,Manual,-2.525728644
+362,Budongo 2012-06-26 Clip 11-1 13;41;38,1000,Nick,Kutu,334,5,Object move,0.082142857,2.76,Manual,1.01523068
+363,Budongo 2012-06-26 Clip 11-1 13;41;38,1001,Nick,Kutu,334,5,Object move,0.082142857,2,Manual,0.693147181
+364,Budongo 2012-06-26 Clip 11-1 13;41;38,1004,Nick,Kutu,334,5,Object shake,0.473214286,3.36,Manual,1.211940974
+365,Budongo 2012-06-27 Clip 11 10;41;10,1021,Nick,Kutu,335,1,Object shake,0.473214286,1.44,Manual,0.364643114
+366,Budongo 2012-06-27 Clip 15 11;36;49,1031,Nick,Kutu,336,1,Object shake,0.473214286,5,Manual,1.609437912
+367,Budongo 2012-06-27 Clip 15 11;36;49,1032,Nick,Kutu,337,1,Object shake,0.473214286,4.12,Manual,1.415853163
+368,Budongo 2012-06-27 Clip 15 11;36;49,1033,Nick,Kutu,338,2,Object shake,0.473214286,6.88,Manual,1.928618652
+369,Budongo 2012-06-27 Clip 15 11;36;49,1034,Nick,Kutu,338,2,Object shake,0.473214286,3.84,Manual,1.345472367
+370,Budongo 2012-06-27 Clip 15 11;36;49,1035,Nick,Kutu,339,1,Object shake,0.473214286,5.08,Manual,1.625311262
+371,Budongo 2012-06-27 Clip 15 11;36;49,1036,Nick,Kutu,340,2,Object shake,0.473214286,10.44,Manual,2.345644582
+372,Budongo 2012-06-27 Clip 15 11;36;49,1037,Nick,Kutu,340,2,Object shake,0.473214286,6.96,Manual,1.940179474
+373,Budongo 2012-06-27 Clip 16 11;39;02,1039,Nick,Kutu,341,2,Hit object/ground,0.082142857,0.44,Manual,-0.820980552
+374,Budongo 2012-06-27 Clip 16 11;39;02,1038,Nick,Kutu,341,2,Object shake,0.473214286,6.16,Manual,1.818076778
+375,Budongo 2012-07-09 Clip 2 08;35;13,1120,Kwezi,Katia,343,1,Rocking: sitting,0.025,1.04,Body,0.039220713
+376,Budongo 2012-07-09 Clip 22 10;59;49,1135,Musa,Katia,345,1,Object move,0.082142857,0.44,Manual,-0.820980552
+377,Budongo 2012-07-09 Clip 22 10;59;49,1137,Musa,Katia,346,2,Hit object/ground,0.082142857,0.04,Manual,-3.218875825
+378,Budongo 2012-07-09 Clip 22 10;59;49,1136,Musa,Katia,346,2,Hit object/ground,0.082142857,0.32,Manual,-1.139434283
+379,Budongo 2012-07-09 Clip 22 10;59;49,1138,Musa,Katia,347,1,Object move,0.082142857,0.68,Manual,-0.385662481
+380,Budongo 2012-07-09 Clip 22 10;59;49,1139,Musa,Katia,348,1,Hit object/ground,0.082142857,0.16,Manual,-1.832581464
+381,Budongo 2012-07-09 Clip 22 10;59;49,1140,Musa,Katia,349,1,Object move,0.082142857,0.8,Manual,-0.223143551
+382,Budongo 2012-07-09 Clip 22 10;59;49,1141,Musa,Katia,350,1,Hit object/ground,0.082142857,0.12,Manual,-2.120263536
+383,Budongo 2012-07-09 Clip 22 10;59;49,1142,Musa,Katia,351,1,Object move,0.082142857,1,Manual,0
+384,Budongo 2012-07-09 Clip 22 10;59;49,1143,Musa,Katia,352,1,Hit object/ground,0.082142857,0.12,Manual,-2.120263536
+385,Budongo 2012-07-09 Clip 22 10;59;49,1144,Musa,Katia,353,1,Object move,0.082142857,0.52,Manual,-0.653926467
+386,Budongo 2012-07-09 Clip 22 10;59;49,1145,Musa,Katia,354,1,Object move,0.082142857,0.56,Manual,-0.579818495
+387,Budongo 2012-07-09 Clip 23 11;02;32,1148,Musa,Katia,355,5,Hit object/ground,0.082142857,0.04,Manual,-3.218875825
+388,Budongo 2012-07-09 Clip 23 11;02;32,1149,Musa,Katia,355,5,Hit object/ground,0.082142857,0.08,Manual,-2.525728644
+389,Budongo 2012-07-09 Clip 23 11;02;32,1150,Musa,Katia,355,5,Hit object/ground,0.082142857,0.2,Manual,-1.609437912
+390,Budongo 2012-07-09 Clip 23 11;02;32,1147,Musa,Katia,355,5,Object move,0.082142857,1.6,Manual,0.470003629
+391,Budongo 2012-07-09 Clip 3 08;52;51,1122,Kwezi,Katia,357,2,Rocking: sitting,0.025,1.16,Body,0.148420005
+392,Budongo 2012-07-09 Clip 3 08;52;51,1123,Kwezi,Katia,357,2,Thrust,0.005357143,4.68,Body,1.54329811
+393,Budongo 2012-07-14 Clip 13 11;38;31,1169,Kwezi,Katia,359,3,Object shake,0.473214286,1.2,Manual,0.182321557
+394,Budongo 2012-07-14 Clip 13 11;38;31,1168,Kwezi,Katia,359,3,Rocking: sitting,0.025,5.12,Body,1.633154439
+395,Budongo 2012-07-14 Clip 13 11;38;31,1170,Kwezi,Katia,359,3,Thrust,0.005357143,1.4,Body,0.336472237
+396,Budongo 2012-07-14 Clip 18 11;51;40,1172,Zalu,Katia,360,1,Present: genitals forwards,0.046428571,0.92,Body,-0.083381609
+397,Budongo 2012-07-14 Clip 18 11;51;40,1173,Zalu,Katia,361,1,Thrust,0.005357143,0.6,Body,-0.510825624
+398,Budongo 2012-07-21 Clip 1 07;45;43,1217,Nick,Kwera,362,2,Reach: palm,0.005357143,0.48,Manual,-0.733969175
+399,Budongo 2012-07-21 Clip 1 07;45;43,1216,Nick,Kwera,362,2,Stomp object/ground,0.042857143,0.16,Manual,-1.832581464
+400,Budongo 2012-07-21 Clip 1 07;45;43,1218,Nick,Kwera,363,1,Reach: palm,0.005357143,1.04,Manual,0.039220713
+401,Budongo 2012-07-21 Clip 2 07;48;01,1219,Nick,Kwera,364,1,Rocking: sitting,0.025,1.56,Body,0.444685821
+402,Budongo 2012-07-21 Clip 2 07;48;01,1221,Nick,Kwera,365,1,Reach: wrist,0.003571429,2.8,Manual,1.029619417
+403,Budongo 2012-07-21 Clip 27 12;08;11,1282,Nick,Kwera,366,1,Object shake,0.473214286,1.32,Manual,0.277631737
+404,Budongo 2012-07-21 Clip 27 12;08;11,1283,Nick,Kwera,367,1,Object shake,0.473214286,2.8,Manual,1.029619417
+405,"BudongoBF 2012-07-09 11;26;54 SQ (KA) (KZ, KY, KX, ZG)",110,Squibs,Katia,369,2,Big Loud Scratch,0.023214286,5.2,Manual,1.648658626
+406,"BudongoBF 2012-07-09 11;26;54 SQ (KA) (KZ, KY, KX, ZG)",110,Squibs,Katia,369,2,Object shake,0.473214286,1.64,Manual,0.494696242
+407,"BudongoBF 2012-07-09 11;26;54 SQ (KA) (KZ, KY, KX, ZG)",110,Squibs,Katia,370,1,Present: genitals forwards,0.046428571,0.8,Body,-0.223143551
+408,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,371,1,Object shake,0.473214286,2.92,Manual,1.071583616
+409,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,372,1,Object shake,0.473214286,0.72,Manual,-0.328504067
+410,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,373,1,Object shake,0.473214286,1.92,Manual,0.652325186
+411,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,374,1,Object shake,0.473214286,0.88,Manual,-0.127833372
+412,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,375,1,Object shake,0.473214286,1.28,Manual,0.246860078
+413,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,376,1,Object shake,0.473214286,0.92,Manual,-0.083381609
+414,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,377,1,Object shake,0.473214286,1.12,Manual,0.113328685
+415,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,378,1,Object shake,0.473214286,1.32,Manual,0.277631737
+416,BudongoBF 2012-10-17 Clip 38 15;13;37 KT KA,80,Kato,Katia,379,1,Object shake,0.473214286,1.2,Manual,0.182321557
+417,BudongoBF 2012-11-25 Clip 38 11;32;19 KT KA,85,Kato,Katia,382,3,Big Loud Scratch,0.023214286,2.84,Manual,1.043804052
+418,BudongoBF 2012-11-25 Clip 38 11;32;19 KT KA,85,Kato,Katia,382,3,Object shake,0.473214286,1.84,Manual,0.609765572
+419,BudongoBF 2012-11-25 Clip 44 12;56;58 KT KA (SM FK SQ PS KN),86,Kato,Katia,384,1,Object shake,0.473214286,1.08,Manual,0.076961041
+420,BudongoBF 2012-12-18 Clip 5 09;40;25 KT RH Consortship,61,Kato,Ruhara,387,1,Leaf clipping,0.0625,6.04,Manual,1.798404012
+421,BudongoBF 2012-12-18 Clip 5 09;40;25 KT RH Consortship,61,Kato,Ruhara,388,1,Leaf clipping,0.0625,4,Manual,1.386294361
+422,BudongoBF 2012-12-18 Clip 5 09;40;25 KT RH Consortship,61,Kato,Ruhara,389,1,Object shake,0.473214286,0.68,Manual,-0.385662481
+423,BudongoBF 2012-12-18 Clip 5 09;40;25 KT RH Consortship,61,Kato,Ruhara,390,1,Object shake,0.473214286,0.64,Manual,-0.446287103
+424,BudongoBF 2012-12-18 Clip 5 09;40;25 KT RH Consortship,61,Kato,Ruhara,391,1,Object shake,0.473214286,0.76,Manual,-0.274436846
+425,BudongoBF 2012-12-18 Clip 5 09;40;25 KT RH Consortship,61,Kato,Ruhara,392,1,Object shake,0.473214286,0.88,Manual,-0.127833372
+426,BudongoBF 2012-12-18 Clip 5 09;40;25 KT RH Consortship,61,Kato,Ruhara,393,1,Object shake,0.473214286,0.68,Manual,-0.385662481
+427,BudongoBF 2012-12-18 Clip 6 09;45;21 KT RH Consortship,61,Kato,Ruhara,395,1,Leaf clipping,0.0625,3.2,Manual,1.16315081
+428,BudongoBF 2012-12-18 Clip 7 09;46;05 KT RH consortship (FK) (PS barks),61,Kato,Ruhara,398,1,Leaf clipping,0.0625,2.84,Manual,1.043804052
+429,BudongoBF 2012-12-18 Clip 7 09;46;05 KT RH consortship (FK) (PS barks),61,Kato,Ruhara,399,1,Hit object/ground,0.082142857,0.48,Manual,-0.733969175
+430,BudongoBF 2012-12-18 Clip 7 09;46;05 KT RH consortship (FK) (PS barks),61,Kato,Ruhara,400,3,Big Loud Scratch,0.023214286,3.16,Manual,1.150572028
+431,BudongoBF 2012-12-18 Clip 7 09;46;05 KT RH consortship (FK) (PS barks),61,Kato,Ruhara,400,3,Leaf clipping,0.0625,5.28,Manual,1.663926098
+432,BudongoBF 2012-12-18 Clip 7 09;46;05 KT RH consortship (FK) (PS barks),61,Kato,Ruhara,400,3,Leaf clipping,0.0625,2.88,Manual,1.057790294
+433,BudongoBF 2012-12-18 Clip 10 09;52;35 MS RH copulate KT RH Consortship ,62,Musa,Ruhara,402,2,Object shake,0.473214286,1.64,Manual,0.494696242
+434,BudongoBF 2012-12-18 Clip 10 09;52;35 MS RH copulate KT RH Consortship ,62,Musa,Ruhara,402,2,Present: genitals forwards,0.046428571,0.52,Body,-0.653926467
+435,BudongoBF 2013-01-10 Clip 63 15;20;59 KT KY KX,88,Kato,Kewaya,404,2,Object shake,0.473214286,2.08,Manual,0.732367894
+436,BudongoBF 2013-01-10 Clip 63 15;20;59 KT KY KX,88,Kato,Kewaya,404,2,Stomp object/ground,0.042857143,0.48,Manual,-0.733969175
+437,BudongoBF 2013-01-15 Clip 1 08;30;40 NK JN JM,1,Nick,Janie,405,1,Stomp object/ground,0.042857143,0.32,Manual,-1.139434283
+438,BudongoBF 2013-01-15 Clip 1 08;30;40 NK JN JM,1,Nick,Janie,406,1,Stomp object/ground,0.042857143,0.2,Manual,-1.609437912
+439,BudongoBF 2013-01-15 Clip 1 08;30;40 NK JN JM,1,Nick,Janie,407,2,Hit object/ground,0.082142857,0.76,Manual,-0.274436846
+440,BudongoBF 2013-01-15 Clip 1 08;30;40 NK JN JM,1,Nick,Janie,407,2,Stomp object/ground,0.042857143,0.24,Manual,-1.427116356
+441,BudongoBF 2013-01-15 Clip 4 08;35;24 KL SM,3,Simon,Kalema,408,1,Object shake,0.473214286,1.24,Manual,0.21511138
+442,BudongoBF 2013-01-15 Clip 5 08;36;36 SM AN,4,Simon,Anna,409,1,Present: genitals forwards,0.046428571,1,Body,0
+443,BudongoBF 2013-01-15 Clip 8 08;50;44 ZD AN,6,Zed,Anna,410,1,Big Loud Scratch,0.023214286,1.36,Manual,0.3074847
+444,BudongoBF 2013-01-15 Clip 8 08;50;44 ZD AN,6,Zed,Anna,411,1,Present: genitals forwards,0.046428571,1.04,Body,0.039220713
+445,BudongoBF 2013-01-15 Clip 14 09;08;53 KZ OK,10,Kwezi,Oakland,412,2,Object shake,0.473214286,1.12,Manual,0.113328685
+446,BudongoBF 2013-01-15 Clip 14 09;08;53 KZ OK,10,Kwezi,Oakland,412,2,Present: genitals forwards,0.046428571,0.84,Body,-0.174353387
+447,BudongoBF 2013-01-15 Clip 15 09;39;50 FK OK (RH NK),11,Frank,Oakland,413,1,Big Loud Scratch,0.023214286,1.16,Manual,0.148420005
+448,BudongoBF 2013-01-15 Clip 15 09;39;50 FK OK (RH NK),11,Frank,Oakland,414,1,Object shake,0.473214286,0.8,Manual,-0.223143551
+449,BudongoBF 2013-01-15 Clip 15 09;39;50 FK OK (RH NK),11,Frank,Oakland,415,1,Present: genitals forwards,0.046428571,1.04,Body,0.039220713
+450,BudongoBF 2013-01-15 Clip 15 09;39;50 FK OK (RH NK),11,Frank,Oakland,416,2,Big Loud Scratch,0.023214286,1.84,Manual,0.609765572
+451,BudongoBF 2013-01-15 Clip 15 09;39;50 FK OK (RH NK),11,Frank,Oakland,416,2,Object shake,0.473214286,3.32,Manual,1.199964783
+452,BudongoBF 2013-01-15 Clip 29 13;54;04 ZL JN (NB),16,Zalu,Janie,418,1,Present: genitals forwards,0.046428571,1.24,Body,0.21511138
+453,BudongoBF 2013-01-15 Clip 29 13;54;04 ZL JN (NB),16,Zalu,Janie,419,1,Present: genitals forwards,0.046428571,1.44,Body,0.364643114
+454,BudongoBF 2013-01-15 Clip 29 13;54;04 ZL JN (NB),16,Zalu,Janie,420,2,Hit object/ground,0.082142857,0.44,Manual,-0.820980552
+455,BudongoBF 2013-01-15 Clip 29 13;54;04 ZL JN (NB),16,Zalu,Janie,421,2,Object shake,0.473214286,1.04,Manual,0.039220713
+456,BudongoBF 2013-01-15 Clip 31 14;09;08 FD JN JM (NB ZL SM NK RH RS),17,Fred,Janie,423,2,Object shake,0.473214286,2.88,Manual,1.057790294
+457,BudongoBF 2013-03-01 Clip 1 08;04;1 SQ KY,117,Squibs,Kewaya,432,1,Object shake,0.473214286,1.6,Manual,0.470003629
+458,BudongoBF 2013-03-01 Clip 1 08;04;1 SQ KY,117,Squibs,Kewaya,433,1,Object shake,0.473214286,2.36,Manual,0.858661619
+459,BudongoBF 2013-03-01 Clip 1 08;04;1 SQ KY,117,Squibs,Kewaya,434,2,Object shake,0.473214286,3,Manual,1.098612289
+460,BudongoBF 2013-03-01 Clip 1 08;04;1 SQ KY,117,Squibs,Kewaya,434,2,Object shake,0.473214286,6.36,Manual,1.850028377
+461,BudongoBF 2013-03-04 Clip 5 08;39;36 KT HT consortship,68,Kato,Harriet,436,1,Object shake,0.473214286,1.56,Manual,0.444685821
+462,BudongoBF 2013-03-04 Clip 5 08;39;36 KT HT consortship,68,Kato,Harriet,437,1,Object shake,0.473214286,1.44,Manual,0.364643114
+463,BudongoBF 2013-03-04 Clip 14 08;46;54 KT HT consortship (KU),75,Kato,Harriet,438,1,Object shake,0.473214286,1.88,Manual,0.631271777
+464,BudongoBF 2013-03-04 Clip 15 08;46;54 KT HT consortship (KU),76,Kato,Harriet,440,1,Leaf clipping,0.0625,7.08,Manual,1.957273908
+465,BudongoBF 2013-03-04 Clip 15 08;46;54 KT HT consortship (KU),76,Kato,Harriet,441,1,Leaf clipping,0.0625,7.48,Manual,2.012232792
+466,BudongoBF 2013-03-04 Clip 15 08;46;54 KT HT consortship (KU),76,Kato,Harriet,442,1,Object shake,0.473214286,1.84,Manual,0.609765572
+467,BudongoBF 2013-03-04 Clip 15 08;46;54 KT HT consortship (KU),76,Kato,Harriet,443,1,Object shake,0.473214286,1.2,Manual,0.182321557
+468,BudongoBF 2013-03-04 Clip 15 08;46;54 KT HT consortship (KU),76,Kato,Harriet,444,2,Leaf clipping,0.0625,8.52,Manual,2.142416341
+469,BudongoBF 2013-03-04 Clip 15 08;46;54 KT HT consortship (KU),76,Kato,Harriet,444,2,Leaf clipping,0.0625,4.36,Manual,1.472472057
+470,"BudongoBF 2013-10-17 Clip 15 12;29;41 SM UP solicit, interrupt by NK ZF ",27,Simon,Upesi,445,1,Big Loud Scratch,0.023214286,4.12,Manual,1.415853163
+471,"BudongoBF 2013-10-17 Clip 15 12;29;41 SM UP solicit, interrupt by NK ZF ",27,Simon,Upesi,446,2,Object shake,0.473214286,1.12,Manual,0.113328685
+472,"BudongoBF 2013-10-17 Clip 15 12;29;41 SM UP solicit, interrupt by NK ZF ",27,Simon,Upesi,446,2,Stomp object/ground,0.042857143,0.52,Manual,-0.653926467
+473,BudongoBF 2013-11-02 Clip 23 09;27;32 KT KA solicit,37,Kato,Katia,453,1,Big Loud Scratch,0.023214286,1.92,Manual,0.652325186
+474,BudongoBF 2013-11-02 Clip 24 09;28;58 KT KA solicit,37,Kato,Katia,454,1,Object shake,0.473214286,4.88,Manual,1.58514522
+475,BudongoBF 2013-11-02 Clip 24 09;28;58 KT KA solicit,37,Kato,Katia,455,1,Object shake,0.473214286,1.36,Manual,0.3074847
+476,BudongoBF 2013-11-02 Clip 26 09;28;58 MS KA aggress solicit,596,Musa,Katia,457,1,Hit object/ground,0.082142857,1.4,Manual,0.336472237
+477,BudongoBF 2013-11-02 Clip 33 11;52;10 ZD KA copulate ,601,Zed,Katia,460,1,Raise arm,0.016071429,1.2,Manual,0.182321557
+478,BudongoBF 2013-11-02 Clip 36 13;07;43 KA FD copulate,604,Fred,Katia,464,2,Present: genitals forwards,0.046428571,4.24,Body,1.444563269
+479,BudongoBF 2013-11-02 Clip 36 13;07;43 KA FD copulate,604,Fred,Katia,464,2,Rocking: sitting,0.025,2.17,Body,0.774727168
+480,BudongoBF 2013-11-02 Clip 23 09;27;32 KT KA solicit,92,Kato,Katia,465,1,Big Loud Scratch,0.023214286,1.6,Manual,0.470003629
+481,BudongoBF 2013-11-02 Clip 23 09;27;32 KT KA solicit,702,Kato,Katia,466,1,Object shake,0.473214286,2,Manual,0.693147181
+482,BudongoBF 2013-11-03 Clip 10 08;01;22 NK KA,621,Nick,Katia,470,1,Object shake,0.473214286,0.36,Manual,-1.021651248
+483,BudongoBF 2013-11-04 Clip 1 07;42;21 KL FD copulate KC,635,Fred,Kalema,480,2,Present: genitals forwards,0.046428571,0.84,Body,-0.174353387
+484,BudongoBF 2013-11-04 Clip 1 07;42;21 KL FD copulate KC,635,Fred,Kalema,480,2,Raise arm,0.016071429,0.32,Manual,-1.139434283
+485,BudongoBF 2013-11-04 Clip 6 07;51;52 SM KL copulate,640,Simon,Kalema,485,2,Present: genitals forwards,0.046428571,0.92,Body,-0.083381609
+486,BudongoBF 2013-11-04 Clip 6 07;51;52 SM KL copulate,640,Simon,Kalema,485,2,Swing: directed,0.005357143,1.04,Manual,0.039220713
+487,BudongoBF 2013-11-04 Clip 11 09;55;54 NK KL solicit ZL interrupt,644,Nick,Kalema,486,2,Leaf clipping,0.0625,3.6,Manual,1.280933845
+488,BudongoBF 2013-11-04 Clip 11 09;55;54 NK KL solicit ZL interrupt,644,Nick,Kalema,486,2,Stomp object/ground,0.042857143,0.28,Manual,-1.272965676
+489,BudongoBF 2013-11-04 Clip 11 09;55;54 NK KL solicit ZL interrupt,644,Nick,Kalema,489,2,Leaf clipping,0.0625,1.6,Manual,0.470003629
+490,BudongoBF 2013-11-04 Clip 11 09;55;54 NK KL solicit ZL interrupt,644,Nick,Kalema,489,2,Stomp object/ground,0.042857143,0.24,Manual,-1.427116356
+491,BudongoBF 2013-11-04 Clip 17 10;25;43 MS KL copulate KC interfere (ZL),650,Musa,Kalema,491,1,Stomp object/ground,0.042857143,0.68,Manual,-0.385662481
+492,BudongoBF 2013-11-04 Clip 17 10;25;43 MS KL copulate KC interfere (ZL),650,Musa,Kalema,492,1,Stomp object/ground,0.042857143,0.68,Manual,-0.385662481
+493,BudongoBF 2013-11-04 Clip 17 10;25;43 MS KL copulate KC interfere (ZL),650,Musa,Kalema,493,2,Rocking: sitting,0.025,0.64,Body,-0.446287103
+494,BudongoBF 2013-11-04 Clip 17 10;25;43 MS KL copulate KC interfere (ZL),650,Musa,Kalema,493,2,Stomp object/ground,0.042857143,0.68,Manual,-0.385662481
+495,BudongoBF 2013-11-07 Clip 3 08;36;19 KL KT copulate KC (ZG ZD),703,Kato,Kalema,494,1,Big Loud Scratch,0.023214286,8.4,Manual,2.128231706
+496,BudongoBF 2013-11-07 Clip 3 08;36;19 KL KT copulate KC (ZG ZD),703,Kato,Kalema,495,2,Present: genitals forwards,0.046428571,1.36,Body,0.3074847
+497,BudongoBF 2013-11-07 Clip 3 08;36;19 KL KT copulate KC (ZG ZD),703,Kato,Kalema,495,2,Raise arm,0.016071429,1.12,Manual,0.113328685
+498,BudongoBF 2013-11-26 Clip 31 12;29;01 KT KA copulate (KS ZD HT KU vis),704,Kato,Katia,496,1,Object shake,0.473214286,2.2,Manual,0.78845736
+499,BudongoBF 2013-12-09 Clip 2 10;48;25 KT OK solicit,96,Kato,Oakland,499,1,Object shake,0.473214286,1.12,Manual,0.113328685
+500,BudongoBF 2013-12-09 Clip 3 10;49;26 KT OK solicit,706,Kato,Oakland,500,2,Big Loud Scratch,0.023214286,1.4,Manual,0.336472237
+501,BudongoBF 2013-12-09 Clip 3 10;49;26 KT OK solicit,706,Kato,Oakland,500,2,Object shake,0.473214286,2,Manual,0.693147181
+502,BudongoBF 2013-12-31 Clip 33 10;13;07 SQ KY copulate (NB NK KT ZL ZD FD FK HW),719,Squibs,Kewaya,502,1,Object shake,0.473214286,2.2,Manual,0.78845736
+503,BudongoBF 2014-01-04 Clip 10 12;34;09 SM UP fail solicit,828,Simon,Upesi,504,1,Leaf clipping,0.0625,2.36,Manual,0.858661619
+504,BudongoBF 2014-01-05 Clip 38 11;06;29 KT KY solicit penis flick,106,Kato,Kewaya,506,1,Object shake,0.473214286,3.28,Manual,1.187843422
+505,BudongoBF 2014-01-05 Clip 15 08;48;19 PS IR copulate (SM UP HW),168,Pascal,Irene,512,1,Hit object/ground,0.082142857,0.48,Manual,-0.733969175
+506,BudongoBF 2014-01-05 Clip 15 08;48;19 PS IR copulate (SM UP HW),168,Pascal,Irene,513,1,Present: genitals forwards,0.046428571,1.12,Body,0.113328685
+507,BudongoBF 2014-01-05 Clip 38 11;06;29 KT KY solicit penis flick,172,Kato,Kewaya,519,2,Object shake,0.473214286,0.64,Manual,-0.446287103
+508,BudongoBF 2014-01-05 Clip 39 11;07;19 KT KY solicit,172,Kato,Kewaya,520,1,Big Loud Scratch,0.023214286,4.88,Manual,1.58514522
+509,BudongoBF 2014-01-05 Clip 39 11;07;19 KT KY solicit,172,Kato,Kewaya,521,1,Object shake,0.473214286,1.04,Manual,0.039220713
+510,BudongoBF 2014-01-05 Clip 39 11;07;19 KT KY solicit,172,Kato,Kewaya,522,1,Object shake,0.473214286,0.92,Manual,-0.083381609
+511,BudongoBF 2014-01-05 Clip 39 11;07;19 KT KY solicit,172,Kato,Kewaya,523,3,Hit object/ground,0.082142857,0.56,Manual,-0.579818495
+512,BudongoBF 2014-01-05 Clip 39 11;07;19 KT KY solicit,172,Kato,Kewaya,523,3,Hit object/ground,0.082142857,0.64,Manual,-0.446287103
+513,BudongoBF 2014-01-05 Clip 39 11;07;19 KT KY solicit,172,Kato,Kewaya,523,3,Raise arm,0.016071429,0.72,Manual,-0.328504067
+514,BudongoBF 2014-01-05 Clip 47 12;42;42 FK KY copulate,173,Frank,Kewaya,524,2,Object shake,0.473214286,2.92,Manual,1.071583616
+515,BudongoBF 2014-01-05 Clip 47 12;42;42 FK KY copulate,173,Frank,Kewaya,525,1,Present: genitals forwards,0.046428571,1.68,Body,0.518793793
+516,BudongoBF 2014-01-14 Clip 18 12;08;21 FD RH copulate (SM WL vis),809,Fred,Ruhara,527,2,Present: genitals forwards,0.046428571,1.04,Body,0.039220713
+517,BudongoBF 2014-01-14 Clip 18 12;08;21 FD RH copulate (SM WL vis),809,Fred,Ruhara,527,2,Raise arm,0.016071429,1.04,Manual,0.039220713
+518,BudongoBF 2014-01-14 Clip 18 12;08;21 FD RH copulate (SM WL vis),809,Fred,Ruhara,528,2,Object shake,0.473214286,3.56,Manual,1.269760545
+519,BudongoBF 2014-01-14 Clip 18 12;08;21 FD RH copulate (SM WL vis),809,Fred,Ruhara,528,2,Rocking: sitting,0.025,1.4,Body,0.336472237
+520,BudongoBF 2014-01-14 Clip 20 12;10;15 ZD RH copulate (FD),811,Zed,Ruhara,529,1,Leaf clipping,0.0625,6.44,Manual,1.86252854
+521,BudongoBF 2014-01-14 Clip 20 12;10;15 ZD RH copulate (FD),811,Zed,Ruhara,530,1,Present: genitals forwards,0.046428571,0.56,Body,-0.579818495
+522,BudongoBF 2014-01-15 Clip 1 08;07;03 ZG RH copulate (FL KY RS AN WL KW),798,Zig,Ruhara,531,2,Present: genitals forwards,0.046428571,1.28,Body,0.246860078
+523,BudongoBF 2014-01-15 Clip 1 08;07;03 ZG RH copulate (FL KY RS AN WL KW),798,Zig,Ruhara,531,2,Raise arm,0.016071429,0.32,Manual,-1.139434283
+524,BudongoBF 2014-01-22 Clip 20 10;42;01 KT OK copulate (HT KS JN KU NT FK),724,Kato,Oakland,532,2,Present: genitals forwards,0.046428571,0.96,Body,-0.040821995
+525,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,535,2,Object shake,0.473214286,1.52,Manual,0.418710335
+526,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,535,2,Rocking: sitting,0.025,1.6,Body,0.470003629
+527,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,536,2,Raise arm,0.016071429,0.68,Manual,-0.385662481
+528,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,536,2,Rocking: sitting,0.025,2.48,Body,0.90825856
+529,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,537,1,Big Loud Scratch,0.023214286,2.56,Manual,0.940007258
+530,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,538,2,Reach: wrist,0.003571429,0.96,Manual,-0.040821995
+531,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,538,2,Rocking: sitting,0.025,2.04,Body,0.712949808
+532,"BudongoBF 2014-01-22 Clip 4 08;37;13 FK OK copulate (JM interfere, IR vis)",785,Frank,Oakland,539,1,Present: genitals forwards,0.046428571,0.96,Body,-0.040821995
+533,BudongoBF 2014-01-22 Clip 7 09;08;01 OK KS copulate (JN JM),787,Kasigwa,Oakland,540,1,Raise arm,0.016071429,0.44,Manual,-0.820980552
+534,BudongoBF 2014-01-23 Clip 6 10;07;46 FD OK copulate (JM JN KR HW KZ vis),767,Fred,Oakland,548,2,Locomote: bipedal,0.001785714,2.12,Body,0.751416089
+535,BudongoBF 2014-01-23 Clip 6 10;07;46 FD OK copulate (JM JN KR HW KZ vis),767,Fred,Oakland,548,2,Object shake,0.473214286,1.36,Manual,0.3074847
+536,BudongoBF 2014-01-23 Clip 6 10;07;46 FD OK copulate (JM JN KR HW KZ vis),767,Fred,Oakland,549,1,Object shake,0.473214286,1.36,Manual,0.3074847
+537,BudongoBF 2014-01-23 Clip 6 10;07;46 FD OK copulate (JM JN KR HW KZ vis),767,Fred,Oakland,550,2,Present: genitals forwards,0.046428571,0.4,Body,-0.916290732
+538,BudongoBF 2014-01-23 Clip 6 10;07;46 FD OK copulate (JM JN KR HW KZ vis),767,Fred,Oakland,550,2,Swing,0.039285714,1.2,Manual,0.182321557
+539,BudongoBF 2014-01-23 Clip 6 10;07;46 FD OK copulate (JM JN KR HW KZ vis),767,Fred,Oakland,551,2,Present: genitals forwards,0.046428571,0.48,Body,-0.733969175
+540,BudongoBF 2014-01-23 Clip 6 10;07;46 FD OK copulate (JM JN KR HW KZ vis),767,Fred,Oakland,551,2,Rocking: sitting,0.025,4.8,Body,1.568615918
+541,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,552,2,Hit object/ground,0.082142857,0.24,Manual,-1.427116356
+542,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,552,2,Hit object/ground,0.082142857,0.36,Manual,-1.021651248
+543,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,553,3,Hit object/ground,0.082142857,0.32,Manual,-1.139434283
+544,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,553,3,Hit object/ground,0.082142857,0.28,Manual,-1.272965676
+545,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,553,3,Object shake,0.473214286,0.48,Manual,-0.733969175
+546,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,554,3,Present: genitals forwards,0.046428571,0.92,Body,-0.083381609
+547,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,554,3,Raise arm,0.016071429,0.72,Manual,-0.328504067
+548,"BudongoBF 2014-01-23 Clip 20 13;59;46 KS OK copulate, KJ KA inspect",778,Kasigwa,Oakland,554,3,Rocking: sitting,0.025,0.76,Body,-0.274436846
+549,BudongoBF 2014-01-23 Clip 24 14;14;44 KS OK copulate (NT),782,Kasigwa,Oakland,556,2,Hit object/ground,0.082142857,0.6,Manual,-0.510825624
+550,BudongoBF 2014-02-01 Clip 1 08;05;14 KY PS copulate (JT TJ vis),741,Pascal,Kewaya,557,1,Present: genitals forwards,0.046428571,1.84,Body,0.609765572
+551,"BudongoBF 2014-02-01 Clip 4 08;14;59 KS KA copulate (KY vis, NK TJ JT ML aud)",744,Kasigwa,Katia,558,2,Leaf clipping,0.0625,3.84,Manual,1.345472367
+552,"BudongoBF 2014-02-01 Clip 4 08;14;59 KS KA copulate (KY vis, NK TJ JT ML aud)",744,Kasigwa,Katia,558,2,Stomp object/ground,0.042857143,0.52,Manual,-0.653926467
+553,"BudongoBF 2014-02-01 Clip 5 08;16;03 FK aggress KA KY, copulate KY, female competition ",745,Frank,Kewaya,561,3,Present: genitals forwards,0.046428571,0.92,Body,-0.083381609
+554,"BudongoBF 2014-02-01 Clip 5 08;16;03 FK aggress KA KY, copulate KY, female competition ",745,Frank,Kewaya,561,3,Rocking: sitting,0.025,1.6,Body,0.470003629
+555,"BudongoBF 2014-02-01 Clip 5 08;16;03 FK aggress KA KY, copulate KY, female competition ",745,Frank,Kewaya,561,3,Swing: directed,0.005357143,0.64,Manual,-0.446287103
+556,"BudongoBF 2014-02-01 Clip 5 08;16;03 FK aggress KA KY, copulate KY, female competition ",745,Frank,Kewaya,564,1,Object shake,0.473214286,1.44,Manual,0.364643114
+557,11.115,1055,Duane,Lola,562,1,Object shake,0.473214286,1.56,Manual,0.444685821
+558,"BudongoBF 2014-02-01 Clip 5 08;16;03 FK aggress KA KY, copulate KY, female competition ",745,Frank,Kewaya,563,1,Object shake,0.473214286,0.8,Manual,-0.223143551
+559,BudongoBF 2014-02-01 Clip 15 10;15;54 NK RS inspect,755,Nick,Rose,565,1,Stomp object/ground,0.042857143,0.36,Manual,-1.021651248
+560,BudongoBF 2014-02-01 Clip 15 10;15;54 NK RS inspect,755,Nick,Rose,566,1,Beckon,0.001785714,0.64,Manual,-0.446287103
